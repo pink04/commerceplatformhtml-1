@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/product.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">회원가입 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popJoinEmail">이메일로 가입하기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popCheckLogin">입력한 이메일 정보 확인</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popConfirmEmail">이메일 계정 확인</a></li>
+		</ul>
+		<h2 class="popup_sample_title">로그인 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popGuestJoin">준회원 가입하기</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap type_simple" id="popJoinEmail" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt02 txt_l">
+					<span>원더플레이스를 이용하기 위해서는 이메일이 필요합니다.</span>
+					<span><strong>해당 SNS에 이메일을 등록 후</strong> 다시 진행해주세요.</span>
+				</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popCheckLogin" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>꼭 확인해주세요!</h2>
+			</div>
+			<div class="con_box">
+				<table class="mod_tbl_type02" cellpadding="0" cellspacing="0" border="0">
+					<tr><th>입력한 이메일</th></tr>
+					<tr><td>abc1234@naver.com</td></tr>
+					<tr><th>SNS 로그인한 이메일</th></tr>
+					<tr><td>abc123@naver.com</td></tr>
+				</table>
+				<p class="txt02 mt15"><span>입력한 이메일과 SNS 로그인 이메일이 다릅니다.</span><span>SNS 로그인 이메일로 진행하시겠습니다.</span></p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">아니오</button>
+				<button type="button" class="btn btn_red02 pop_close">예</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- [D] 2021.02.02 준회원 가입 불가 팝업 추가 -->
+<div class="layer_pop_wrap" id="popConfirmEmail" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="tit_box">
+				<h2>SNS 메일 주소를 확인해주세요!</h2>
+			</div>
+			<div class="con_box">
+				<p>nio***@***.co.kr</p>
+				<p class="mt20 pb15">회원님의 SNS 메일 주소로 가입된 계정정보가 있습니다.<br>가입한 적이 없을 경우 고객센터를 통해 문의해주세요.</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">닫기</button> 
+				<button type="button" class="btn btn_red02 pop_close">아이디 찾기</button> 
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //[D] 2021.02.02 준회원 가입 불가 팝업 추가 -->
+
+
+
+<!-- [D] 2021.02.02 준회원 가입 가능 -->
+<div class="layer_pop_wrap" id="popConfirmEmail" style="display:table;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="tit_box">
+				<h2>SNS 메일 주소를 확인해주세요!</h2>
+			</div>
+			<div class="con_box">
+				<p>nio***@***.co.kr</p>
+				<p class="mt20">준회원 가입하기 버튼을 선택하면 회원가입이 완료됩니다!</p>
+				<p class="mt10 pb15">더 많은 혜택을 받고 싶으실 경우<br> 정회원으로 전환하신 뒤 이용해주세요!</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">닫기</button> 
+				<button type="button" class="btn btn_red02 pop_close">준회원 가입하기</button> 
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //[D] 2021.02.02 준회원 가입 가능 -->
+
+
+
+
+<div class="layer_pop_wrap type_simple" id="popGuestJoin" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt02 txt_l"><strong>원더플레이스가 처음이군요!</strong><span>준회원 가입하시를 선택하면 회원가입 후 원더플레이스를 이용할 수 있습니다.</span></p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">닫기</button>
+				<button type="button" class="btn btn_red02 pop_close">준회원 가입하기</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

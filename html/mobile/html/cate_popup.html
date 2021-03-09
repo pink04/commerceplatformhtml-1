@@ -1,0 +1,912 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/category.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+
+
+	.brand_thumb{width: auto; float: left; margin: 10px 10px 0 0; height: 20px;}
+	.float_r{margin-right:0!important;}
+	.logo_right_test li a{width: 80%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+	.logo_right_test li{height: 40px;}
+	.ht40 li img{height: 30px; width: auto; margin:5px 0;}
+	.ht40 li a{width: 70%; font-size: 14px !important;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">카테고리 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popNaviCategory">네비게이션바 > 카테고리 메뉴</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popCateList01">카테고리 분류 레이어</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popCateOption">카테고리 옵션 레이어</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popThemeList">테마관 전체보기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popWdShip01">원더딜리 가능 지역 확인(불가능)</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popWdShip02">원더딜리 가능 지역 확인(가능)</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popDefaultShip">원더딜리 가능지역 확인 > 기본 배송지 설정 안내</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popCubeList">원더큐브 분류 레이어</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap type_full" id="popCateList01" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="con_box">
+				<div id="cate_depth_wrap">
+					<p class="current_menu">WOMEN</p>
+					<ul class="sub_cate">
+						<li><a href="javascript:;">티셔츠</a></li>
+						<li><a href="javascript:;">블라우스/셔츠</a></li>
+						<li><a href="javascript:;">아우터</a></li>
+						<li class="active"><a href="javascript:;">원피스</a></li>
+						<li><a href="javascript:;">팬츠</a></li>
+						<li><a href="javascript:;">스커트</a></li>
+						<li><a href="javascript:;">니트웨어</a></li>
+					</ul>
+					<ul class="other_menu">
+						<li><a href="javascript:;">NEW ARRIVALS</a></li>
+						<li><a href="javascript:;">GOODBYE 2019 시즌오프</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_slide_r" id="popCateOption">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<!-- <a href="javascript:;" class="btn_close pop_close">팝업닫기</a> -->
+			<div class="tit_box">
+				<h2 class="txt_l">필터</h2>
+				<div class="r_box"><a href="javascript:;" class="btn_reset">초기화</a></div>
+			</div>
+			<div class="con_box no_pad">
+				<div class="cate_opt_top">
+					<span class="deal_tag"><img src="../image/logo_wonder.png" alt="원더딜러" /></span>
+					<a href="javascript:;" class="btn_switch"></a>
+					<p class="txt04 txt_c mt5"><span>서울, 수도권 한정 <strong class="color_black">당일배송</strong> 상품보기</span></p>
+				</div>
+				<ul class="cate_opt_list">
+					<li class="sort_opt">
+						<div class="togg_wrap">
+							<h3>
+								<span>정렬<img class="icon_sort" src="../image/ico_sort02.png" alt="" /><span class="float_r color_gray">10,000 코인</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="radio" name="sortingOpts" id="sortingOpt01"><label for="sortingOpt01">인기순</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="sortingOpts" id="sortingOpt02"><label for="sortingOpt02">신상품순</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="sortingOpts" id="sortingOpt03"><label for="sortingOpt03">낮은가격순</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="sortingOpts" id="sortingOpt04"><label for="sortingOpt04">높은가격순</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>브랜드<span class="float_r color_gray">나이키, 아웃도어프로덕츠, 필라, 아디다스 등등</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">나이키</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">필라</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">아웃도어프로덕츠</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>컬러<span class="float_r color_gray">파랑,노랑</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">파랑</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">노랑</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">블랙</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">BLACK</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">WHITE</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>사이즈<span class="float_r color_gray">XXL</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">S</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">M</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">L</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">XL</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">XXL</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>가격대<span class="float_r color_gray">전체가격</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt01"><label for="filterPriceOpt01">전체가격</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt02"><label for="filterPriceOpt02">5만원 미만</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt03"><label for="filterPriceOpt03">5만원 이상 ~ 10만원 미만</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt04"><label for="filterPriceOpt04">10만원 이상 ~ 20만원 미만</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt05"><label for="filterPriceOpt05">20만원 이상 ~ 30만원 미만</label>
+									</div>
+									<div class="input_box">
+										<input type="radio" name="filterPriceOpts" id="filterPriceOpt06"><label for="filterPriceOpt06">30만원 이상</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>시즌<span class="float_r color_gray">Spring</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">Spring</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">Summer</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">Fall</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">Winter</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="togg_wrap">
+							<h3>
+								<span>속성<span class="float_r color_gray">면,기본</span></span>
+								<a href="javascript:;" class="togg_btn"></a>
+							</h3>
+							<div class="togg_con box_gray">
+								<h4 class="sub_tit">소재</h4>
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">면</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">나일론</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">마</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">WINTER</label>
+									</div>
+								</div>
+								<h4 class="sub_tit mt20">스타일</h4>
+								<div class="form_wrap">
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">기본</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">아메카지</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">덴디</label>
+									</div>
+									<div class="input_box">
+										<input type="checkbox" name="" id=""><label for="">루즈핏</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- <div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">선택초기화</button>
+				<button type="button" class="btn btn_red02 pop_close">선택적용</button>
+			</div> -->
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popThemeList" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>테마관 전체보기</h2>
+			</div>
+			<div class="con_box">
+				<div class="scroll_box h290 bg_white">
+					<!-- module : 브랜드 썸네일 리스트02 -->
+					<ul class="mod_thm_list02 no_pad nth03"><!-- //3열 -->
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box">
+									<img src="../image/temp/img_thm.png" alt="" style="background-image:url(http://m.dev.wonderplace.co.kr/cdn/rest/images/contents/disp_corner_conts/100035/disp_corner_conts_100035_1582534774847.JPG);" /> <!-- [D] 200420 마크업 변경 -->
+								</span>
+								<span class="name_box">#캐쥬얼룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand02.png" alt="" /></span>
+								<span class="name_box">#오피스룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#남친룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#홈웨어</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand01.png" alt="" /></span>
+								<span class="name_box">#캐쥬얼룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand02.png" alt="" /></span>
+								<span class="name_box">#오피스룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#남친룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand02.png" alt="" /></span>
+								<span class="name_box">#오피스룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#남친룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#남친룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand02.png" alt="" /></span>
+								<span class="name_box">#오피스룩</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+								<span class="name_box">#남친룩</span>
+							</a>
+						</li>
+					</ul>
+					<!-- //module : 브랜드 썸네일 리스트02 -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="layer_pop_wrap type_full" id="popWdShip01" style="display: none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>원더딜리 가능 지역 확인</h2>
+			</div>
+			<div class="con_box">
+				<ul class="mod_ship_list">
+					<li class="form_wrap">
+						<a href="javascript:;">
+							<span class="txt02">13536</span>
+							<span class="txt02">서울시 강동구 길1동</span>
+							<span class="txt02">서울현대아파트 1004동 202호</span>
+						</a>
+					</li>
+				</ul>
+				<div class="warn_box txt_c">
+					<i class="ico_warn"><img src="../image/ico_warn01.png" alt="" /></i>
+					<p class="txt05 mt5">당일배송 불가능</p>
+					<p class="txt03 mt5">
+						<span>고객님께서 선택하신 지역은 아쉽게도</span>
+						<span>아직 <em class="color_red">원더딜리</em> <em class="color_mint">당일배송</em> 서비스를 하지 않습니다.</span>
+						<!-- [D] 200519 문구추가 -->
+						<span class="mt10">원더딜리는 <strong>서울지역만</strong> 가능합니다.</span>
+						<span>빠른 시일 내에 서울 외 지역까지 가능하도록 <br>최선을 다하겠습니다.</span>
+						<!--// [D] 200519 문구추가 -->
+					</p>
+
+				</div>
+				<!-- [D] 200519 버튼추가 -->
+				<div class="btn_wrap mt20">
+					<button type="button" class="btn btn_black">다시 검색하기</button>
+					<button type="button" class="btn btn_black03">쇼핑하러 가기</button>
+				</div>
+				<!--// [D] 200519 버튼추가 -->
+			</div>
+
+			<!--div class="fix_bottom_wrap">
+				<div class="btn_wrap no_pad">
+					<button type="button" class="btn btn_black03 pop_close">다시 확인하기</button>
+				</div>
+			</div-->
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popWdShip02" style="display: none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>원더딜리 가능 지역 확인</h2>
+			</div>
+			<div class="con_box">
+				<ul class="mod_ship_list">
+					<li class="form_wrap">
+						<a href="javascript:;">
+							<span class="txt02">13536</span>
+							<span class="txt02">서울시 강동구 길1동</span>
+							<span class="txt02">서울현대아파트 1004동 202호</span>
+						</a>
+					</li>
+				</ul>
+				<div class="warn_box txt_c">
+					<i class="ico_warn"><img src="../image/ico_warn01.png" alt="" /></i>
+					<p class="txt05 mt5">당일배송 가능</p>
+					<p class="txt03 mt5">
+						<span>오전 12시까지 주문시 <em class="color_red">원더딜리</em> <em class="color_mint">당일배송</em>이 가능합니다.</span> <!-- [D] 200429 텍스트 수정 -->
+						<span>위 주소를 기본배송지로 설정하시겠습니까?</span>
+					</p>
+				</div>
+				<div class="btn_wrap mt20">
+					<button type="button" class="btn btn_black pop_open" data-target="#popDefaultShip">기본 배송지로 설정하기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_simple" id="popDefaultShip" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt03">
+					<strong>기본배송지로 설정 되었습니다.</strong>
+					<span>기본배송지는 [마이페이지 > 회원정보수정 > 배송지관리 에서 수정할 수 있습니다.</span>
+				</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">다시 확인하기</button>
+				<button type="button" class="btn btn_red02 pop_close">계속 쇼핑하기</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popNaviCategory" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="con_box">
+				<div id="cate_depth_wrap">
+					<p class="current_menu">CATEGORY</p>
+					<ul class="sub_cate">
+						<li><a href="javascript:;">원더딜리</a></li>
+						<li><a href="javascript:;">여성</a></li>
+						<li><a href="javascript:;">남성</a></li>
+						<li class="active"><a href="javascript:;">슈즈</a></li>
+						<li><a href="javascript:;">액세서리</a></li>
+						<li><a href="javascript:;">베스트</a></li>
+						<li><a href="javascript:;">원더큐브</a></li>
+					</ul>
+					<p class="current_menu mt30">BRAND</p>
+					<div class="btn_wrap mt20">
+						<a href="javascript:;" class="btn_sch pop_open" data-target="#popNaviBrandList">브랜드를 검색해주세요.</a>
+					</div>
+					<!-- [D] 200428 브랜드 메인 추가 제작 -->
+					<div class="brand_wrap">
+						
+						<div class="brand_tit_box mt40">
+							<h3 class="brand_tit">SPECIALTY</h3>
+						</div>
+						<div class="brand_slide swiper-container">
+							<ul class="mod_thm_list02 type02 swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //brand_slide -->
+
+						<div class="brand_tit_box mt40">
+							<h3 class="brand_tit">LUXURY</h3>
+						</div>
+						<div class="brand_slide swiper-container">
+							<ul class="mod_thm_list02 type02 swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //brand_slide -->
+
+						<div class="brand_tit_box mt40">
+							<h3 class="brand_tit">MEGA</h3>
+						</div>
+						<div class="brand_slide swiper-container">
+							<ul class="mod_thm_list02 type02 swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //brand_slide -->
+
+						<div class="brand_list_wrap">
+							<ul class="mod_thm_list02">
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme01.png" alt=""></span>
+										<span class="name_box line_clamp2">디스커버리 익스페디션</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme02.png" alt=""></span>
+										<span class="name_box line_clamp2">아웃도어 프로덕츠</span>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="thm_box"><img src="../image/temp/thm_theme03.png" alt=""></span>
+										<span class="name_box line_clamp2">캉골</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //brand_list_wrap -->
+
+					</div>
+					<!-- //[D] 200428 브랜드 메인 추가 제작 -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popNaviBrandList" style="display:table;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box no_bd">
+				<h2>브랜드</h2>
+			</div>
+			<div class="con_box no_pad">
+				<div id="cate_brand_list">
+					<div class="sort_box">
+						<ul class="sort_type">
+							<li class="active"><a href="javascript:;" class="hangul">가나다</a></li> <!-- [D] 200413 클래스 추가 -->
+							<li><a href="javascript:;" class="abc">ABC</a></li> <!-- [D] 200413 클래스 추가 -->
+						</ul>
+						<ul class="tag_list sort_opts01" style="display:block;">
+							<li class="active"><a href="javascript:;">전체</a></li>
+							<li><a href="javascript:;">ㄱ</a></li>
+							<li><a href="javascript:;">ㄴ</a></li>
+							<li><a href="javascript:;">ㄷ</a></li>
+							<li><a href="javascript:;">ㄹ</a></li>
+							<li><a href="javascript:;">ㅁ</a></li>
+							<li><a href="javascript:;">ㅂ</a></li>
+							<li><a href="javascript:;">ㅅ</a></li>
+							<li><a href="javascript:;">ㅇ</a></li>
+							<li><a href="javascript:;">ㅈ</a></li>
+							<li><a href="javascript:;">ㅊ</a></li>
+							<li><a href="javascript:;">ㅋ</a></li>
+							<li><a href="javascript:;">ㅌ</a></li>
+							<li><a href="javascript:;">ㅍ</a></li>
+							<li><a href="javascript:;">ㅎ</a></li>
+							<li><a href="javascript:;">기타</a></li>
+						</ul>
+						<ul class="tag_list sort_opts02" style="display:none;">
+							<li class="active"><a href="javascript:;">전체</a></li>
+							<li><a href="javascript:;">A</a></li>
+							<li><a href="javascript:;">B</a></li>
+							<li><a href="javascript:;">C</a></li>
+							<li><a href="javascript:;">D</a></li>
+							<li><a href="javascript:;">E</a></li>
+							<li><a href="javascript:;">F</a></li>
+							<li><a href="javascript:;">G</a></li>
+							<li><a href="javascript:;">H</a></li>
+							<li><a href="javascript:;">I</a></li>
+							<li><a href="javascript:;">J</a></li>
+							<li><a href="javascript:;">K</a></li>
+							<li><a href="javascript:;">L</a></li>
+							<li><a href="javascript:;">M</a></li>
+							<li><a href="javascript:;">N</a></li>
+							<li><a href="javascript:;">O</a></li>
+							<li><a href="javascript:;">P</a></li>
+							<li><a href="javascript:;">Q</a></li>
+							<li><a href="javascript:;">R</a></li>
+							<li><a href="javascript:;">S</a></li>
+							<li><a href="javascript:;">T</a></li>
+							<li><a href="javascript:;">U</a></li>
+							<li><a href="javascript:;">V</a></li>
+							<li><a href="javascript:;">W</a></li>
+							<li><a href="javascript:;">X</a></li>
+							<li><a href="javascript:;">Y</a></li>
+							<li><a href="javascript:;">Z</a></li>
+							<li><a href="javascript:;">기타</a></li>
+						</ul>
+					</div>
+					<div class="bline mt15"></div>
+					
+					
+					<ul class="search_result_list">
+						<li>
+							<p class="lang_kr txt_kr_15"><!--[D] 200512 레드마인 이슈수정 -->
+							<!-- <p class="lang_kr txt_kr_01">가</p>txt_kr_01 ~ txt_kr_14 : 가 ~ 하 -->
+							<ul class="brand_list">
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+									<a href="javascript:;">가네보</a>
+								</li>
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+									<a href="javascript:;">가누다 브랜드명이 길 경우우</a></li>
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/734/brand_734_1606881592846.png">
+									<a href="javascript:;">가디</a></li>
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/735/brand_735_1606881559063.png">
+									<a href="javascript:;">가민</a></li>
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/8/brand_8_1592353429948.png">
+									<a href="javascript:;">간만세</a></li>
+								<li>
+									<img class="brand_thumb" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/4/brand_4_1587604458134.png">
+									<a href="javascript:;">게리쏭</a></li>
+							</ul>
+						</li>
+						<li>
+							<p class="lang_kr txt_kr_02">나</p><!-- txt_kr_01 ~ txt_kr_14 : 가 ~ 하 -->
+							<ul class="brand_list logo_right_test">
+								<li>
+									<a href="javascript:;" class="float_l">AHAVA</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/4/brand_4_1587604458134.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">ADDICTION</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/8/brand_8_1592353429948.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">영문 브랜드명 긴 것들이 있음</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/8/brand_8_1592353429948.png">				
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">AMORE PACIFIC 영문 브랜드명 긴 것들이 있음</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/735/brand_735_1606881559063.png">				
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">ABERCROMBIE&FITCH LONG ENGLISH</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">APPLE TREE</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+								</li>
+							</ul>
+						</li>
+						<li>
+							<p class="lang_en txt_en_etc"></p> <!--[D] 200512 레드마인 이슈수정 -->
+							<ul class="brand_list logo_right_test ht40">
+								<li>
+									<a href="javascript:;" class="float_l">KATHARINE HAMNETT LONDON</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/703/brand_703_1602045678432.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">ADDICTION</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/8/brand_8_1592353429948.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">영문 브랜드명 긴 것들이 있음</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/8/brand_8_1592353429948.png">				
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">AMORE PACIFIC 영문 브랜드명 긴 것들이 있음</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/735/brand_735_1606881559063.png">				
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">ABERCROMBIE&FITCH LONG ENGLISH</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+								</li>
+								<li>
+									<a href="javascript:;" class="float_l">APPLE TREE</a>
+									<img class="brand_thumb float_r" src="https://cdn.wonderplace.co.kr/cdn/contents/brand/762/brand_762_1612157963842.png">
+								</li>
+							</ul>
+						</li>
+						<li>
+							<p class="lang_en txt_en_b">B</p>
+							<ul class="brand_list">
+								<li><a href="javascript:;">AHAVA</a></li>
+								<li><a href="javascript:;">ADDICTION</a></li>
+								<li><a href="javascript:;">AHC</a></li>
+								<li><a href="javascript:;">AMORE PACIFIC</a></li>
+								<li><a href="javascript:;">ABERCROMBIE&FITCH</a></li>
+								<li><a href="javascript:;">APPLE TREE</a></li>
+							</ul>
+						</li>
+						<li>
+							<p class="lang_en txt_en_c">C</p>
+							<ul class="brand_list">
+								<li><a href="javascript:;">AHAVA</a></li>
+								<li><a href="javascript:;">ADDICTION</a></li>
+								<li><a href="javascript:;">AHC</a></li>
+								<li><a href="javascript:;">AMORE PACIFIC</a></li>
+								<li><a href="javascript:;">ABERCROMBIE&FITCH</a></li>
+								<li><a href="javascript:;">APPLE TREE</a></li>
+							</ul>
+						</li>
+						<li>
+							<p class="lang_en txt_en_d">D</p>
+							<ul class="brand_list">
+								<li><a href="javascript:;">AHAVA</a></li>
+								<li><a href="javascript:;">ADDICTION</a></li>
+								<li><a href="javascript:;">AHC</a></li>
+								<li><a href="javascript:;">AMORE PACIFIC</a></li>
+								<li><a href="javascript:;">ABERCROMBIE&FITCH</a></li>
+								<li><a href="javascript:;">APPLE TREE</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popCubeList" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="con_box">
+				<div id="cate_depth_wrap">
+					<p class="current_menu">WONDERCUBE</p>
+					<ul class="sub_cate">
+						<li class="active"><a href="javascript:;">메인</a></li>
+						<li><a href="javascript:;">EXCLUSIVE</a></li>
+						<li><a href="javascript:;">CAMPAIGN</a></li>
+						<li><a href="javascript:;">EVENT</a></li>
+					</ul>
+					<ul class="other_menu">
+						<li><a href="javascript:;">NEW ARRIVALS</a></li>
+						<li><a href="javascript:;">GOODBYE 2019 시즌오프</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

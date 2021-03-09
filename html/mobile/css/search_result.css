@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 검색페이지 공통 */
+.search_wrap{min-height:100%;}
+.search_wrap .inner{padding:25px 30px;}
+.search_wrap h2{font-size:25px;font-weight:500;line-height:36px;color:#1f1f1f;}
+.search_wrap .sub_txt01{margin-top:2px;font-size:15px;line-height:21px;color:#909090;}
+.search_wrap dl{}
+.search_wrap dl dt{font-size:16px;font-weight:500;line-height:20px;color:#1f1f1f;}
+.search_wrap dl dd{position:relative;padding-top:5px;}
+.search_wrap .recent_searches{}
+.search_wrap .recent_searches li{}
+.search_wrap .recent_searches li > a{display:block;overflow:hidden;padding:6px 26px 6px 0;}
+.search_wrap .recent_searches li > a .word{display:block;float:left;font-size:13px;line-height:19px;color:#555;}
+.search_wrap .recent_searches li > a .date{display:block;float:right;font-size:12px;line-height:19px;color:#8c8c8c;}
+.search_wrap .recent_searches li > a.btn_del{display:block;position:absolute;top:0;right:0;z-index:1;width:26px;height:31px;padding:0;}
+.search_wrap a.btn_del_all{display:block;position:absolute;top:-20px;right:0;z-index:1;font-size:11px;line-height:20px;color:#8c8c8c;}
+.search_wrap .no_list{padding:60px 0;text-align:center;font-size:13px;line-height:19px;color:#555;}
+.search_wrap .hash_list{display:flex;flex-wrap:wrap;width:104%;margin:28px 0 0 -2%;justify-content:center;}
+.search_wrap .hash_list li{flex:0 0 auto;margin:0 2px 10px;text-align:center;}
+.search_wrap .hash_list li a{display:inline-block;height:44px;padding:9px 20px;border-radius:40px;font-size:18px;line-height:26px;color:#555;background:#f5f5f5;}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/mypage.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">마이페이지 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popBarcode">멤버쉽 바코드</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popMoveGroup">그룹이동하기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popEditGroup">그룹편집</a></li>
+		</ul>
+		<h2 class="popup_sample_title">마이페이지 취소/교환/반품 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popShippingOpt">회수예정일/요청사항 변경하기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popStoreLocation">매장위치</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popWarnCancel01">환불금 비용부족(배송비)</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popWarnCancel02">환불금 비용부족(자동회수예약)</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap type_full" id="popBarcode" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box no_bd">
+				<h2>멤버쉽</h2>
+			</div>
+			<div class="con_box">
+				<div class="barcode_box">
+					<img src="../image/temp/temp_barcode.png" alt="" />
+					<p>2154212003041060</p>
+				</div>
+				<p class="txt06 txt_c mt40">
+					<span>매장에서 상품 구매 시</span>
+					<span>바코드를 제시하면 구매금액에 대한</span>
+					<span>원더코인이 적립됩니다.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popMoveGroup" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>그룹이동</h2>
+			</div>
+			<div class="con_box">
+				<div class="form_wrap">
+					<div class="sel_box">
+						<select>
+							<option>상품문의</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_red02 pop_close">그룹이동하기</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popEditGroup" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box no_bd">
+				<h2>그룹편집</h2>
+			</div>
+			<div class="con_box">
+				<div class="form_wrap">
+					<div class="input_box btn_right88">
+						<input type="text" name="" value="" placeholder="한글기준 10자 이내">
+						<a href="javascript:;" class="btn btn_w88 btn_h45 btn_black">그룹추가</a>
+					</div>
+				</div>
+				<ul class="my_group_list">
+					<li>
+						<a href="javascript:;" class="group_name">미분류 (20)</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="group_name">여름신상 (20)</a>
+						<a href="javascript:;" class="btn_delete">삭제</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="group_name">겨울신상 (20)</a>
+						<a href="javascript:;" class="btn_delete">삭제</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="group_name">인싸상품 (20)</a>
+						<a href="javascript:;" class="btn_delete">삭제</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="group_name">사줘! (20)</a>
+						<a href="javascript:;" class="btn_delete">삭제</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popShippingOpt" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>회수예정일 / 요청사항</h2>
+			</div>
+			<div class="con_box">
+				<dl>
+					<dt>회수 예정일</dt>
+					<dd class="mt0"><p>2020. 01. 20(월)</p></dd>
+				</dl>
+				<dl>
+					<dt>회수 요청사항</dt>
+					<dd class="form_wrap mt5">
+						<span class="input_box">
+							<input type="radio" name="shipping_msg" id="">
+							<label for="">문 앞</label>
+						</span>
+						<span class="input_box">
+							<input type="radio" name="shipping_msg" id="">
+							<label for="">직접 배송기사에게 전달</label>
+						</span>
+						<span class="input_box">
+							<input type="radio" name="shipping_msg" id="">
+							<label for="">경비실</label>
+						</span>
+						<span class="input_box">
+							<input type="radio" name="shipping_msg" id="">
+							<label for="">그 외 장소 (예 : 계단 밑 옥상 등)</label>
+						</span>
+						<div class="textarea_box h70">
+							<textarea name="" placeholder="교환 상품을 보관할 장소를 입력하세요. (필수)"></textarea>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">취소</button>
+				<button type="button" class="btn btn_red02 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popStoreLocation" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>매장위치</h2>
+			</div>
+			<div class="con_box">
+				<p class="txt01 txt_l">
+					<span>원더플레이스 명동점</span>
+					<span>02-1234-1234</span>
+					<span>서울특별시 강남구 역삼동 619-18</span>
+				</p>
+				<p class="txt02 txt_l mt10">
+					<span>영업시간 : 10:30 ~ 21:00</span>
+					<span>(연중무휴 / 설날, 추석 당일 14시 오픈)</span>
+				</p>
+				<div class="location_wrap mt20" style="height:194px;background:#eee;">
+					맵 API 적용 or 맵 이미지 적용 영역
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_simple" id="popWarnCancel01" style="display: none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt_l txt_b500">
+					<span>반품 환불금이 '자동회수예약' 비용보다 부족합니다.</span>
+					<span>상품회수 방식은 <strong class="txt_b700">'고객직접발송'</strong> 만 선택할 수 있습니다.</span>
+				</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_simple" id="popWarnCancel02" style="display: none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt01 font_b500">취소환불금이 배송비보다 부족합니다.</p>
+				<p class="txt02 color_black">부분취소가 불가하니 전체 취소 후 재주문 바랍니다.</p>
+				<div class="info_wrap mt15">
+					<dl class="type01">
+						<dt>취소 후 주문금액 :</dt>
+						<dd class="color_red"><strong>9,999,999</strong><span>원</span></dd>
+					</dl>
+					<dl class="type01">
+						<dt>배송비 :</dt>
+						<dd><strong>2,500</strong><span>원</span></dd>
+					</dl>
+				</div>
+				<div class="box_gray mt15">
+					<p class="txt_c txt04">50,000원 이상 무료배송</p>
+				</div>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

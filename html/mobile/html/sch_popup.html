@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/search.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">푸터 하단 메뉴 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popSch">통합검색</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- 통합검색 팝업 -->
+<div class="layer_pop_wrap type_full" id="popSch" style="">
+    <div class="pop_inner">
+        <div class="pop_wrap pt0">
+            <header class="sch_header">
+                <div class="inner">
+                    <form action="" method="">
+                        <fieldset form="">
+                            <legend>통합검색</legend>
+                            <div class="search_box">
+                                <div class="input_box">
+                                    <input type="search" name="" id="" value="" placeholder="검색어를 입력해주세요.">
+                                    <a href="javascript:;" class="btn_input_del" style=""></a>
+                                </div>
+                                <a href="javascript:;" class="btn btn_sch">검색</a>
+                                <a href="javascript:;" class="btn btn_close pop_close">닫기</a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </header>
+            <div class="con_box pd0">
+                <!-- 검색 전 -->
+                <div class="search_wrap">
+                    <div class="inner">
+                        <dl>
+                            <dt>최근 검색어</dt>
+                            <dd>
+                                <ul class="recent_searches">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">후리스</span><span class="date">01.03</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">#그래픽셔츠</span><span class="date">01.03</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">롱패딩</span><span class="date">01.02</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">반팔티셔츠</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">#맨투맨</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">후리스</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">#그래픽티셔츠</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">#맨투맨</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">후리스</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="word">#그래픽티셔츠</span><span class="date">01.01</span>
+                                        </a>
+                                        <a href="javascript:;" class="btn_del"></a>
+                                    </li>
+                                </ul>
+                                <a href="javascript:;" class="btn_del_all">검색기록 전체삭제</a>
+                            </dd>
+                            <!-- 최근 검색어가 없는 경우 노출 -->
+                            <dd>
+                                <p class="no_list">최근 검색어가 없습니다.</p>
+                            </dd>
+                            <!-- //최근 검색어가 없는 경우 노출 -->
+                        </dl>
+                    </div>
+                    <div class="bline"></div>
+                
+                    <div class="inner txt_c">
+                        <h2>해시태그로 찾는 데일리룩</h2>
+                        <p class="sub_txt01">오늘의 패션을 해시태그로 찾아보세요.</p>
+                        <ul class="hash_list">
+                            <li><a href="javascript:;">#롱패딩</a></li>
+                            <li><a href="javascript:;" style="background-color:#EDFFEA;">#라퍼지스토어</a></li> <!-- [D] 200422 해시태그 배경색 적용 -->
+                            <li><a href="javascript:;" style="background-color:#EAF8FF;">#모드나인</a></li> <!-- [D] 200422 해시태그 배경색 적용 -->
+                            <li><a href="javascript:;">#숏패딩</a></li>
+                            <li><a href="javascript:;">#코트</a></li>
+                            <li><a href="javascript:;">#롱패딩</a></li>
+                            <li><a href="javascript:;" style="background-color:#FFF4F4;">#라퍼지스토어</a></li> <!-- [D] 200422 해시태그 배경색 적용 -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- //검색 전 -->
+
+                <!-- 검색 후 -->
+                <div class="search_wrap">
+                    <div class="filter_wrap mt20">
+                        <div class="inner">
+                            <div class="l_box">
+                                <p class="txt01"><strong>34,203</strong>개 상품</p>
+                            </div>
+                            <div class="r_box">
+                                <a href="javascript:;" class="btn_sort">정렬</a>
+                                <a href="javascript:;" class="btn_filter">필터</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <ul class="mod_prd_list05 no_pad">
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_01.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlyonline.png" alt="온라인 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_org">90,000<em>원</em></span>
+                                        <span class="dis_rate">30<em>%</em></span>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                    <p class="deal_tag"><img src="../image/logo_wonder.png" alt="원더딜러"></p>
+                                    <p class="point_tag"><span class="tag_c">최대 9999C 지급</span></p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32 active">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_02.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlywp.png" alt="원더 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32 active">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_01.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlyonline.png" alt="온라인 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_org">90,000<em>원</em></span>
+                                        <span class="dis_rate">30<em>%</em></span>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                    <p class="deal_tag"><img src="../image/logo_wonder.png" alt="원더딜러"></p>
+                                    <p class="point_tag"><span class="tag_c">최대 9999C 지급</span></p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_02.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlywp.png" alt="원더 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_org">90,000<em>원</em></span>
+                                        <span class="dis_rate">30<em>%</em></span>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                    <p class="deal_tag"><img src="../image/logo_wonder.png" alt="원더딜러"></p>
+                                    <p class="point_tag"><span class="tag_c">최대 9999C 지급</span></p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32 active">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_01.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlyonline.png" alt="온라인 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_org">90,000<em>원</em></span>
+                                        <span class="dis_rate">30<em>%</em></span>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                    <p class="deal_tag"><img src="../image/logo_wonder.png" alt="원더딜러"></p>
+                                    <p class="point_tag"><span class="tag_c">최대 9999C 지급</span></p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                            <li>
+                                <div class="prd_img">
+                                    <img src="../image/temp/img_344x476_02.jpg" alt="">
+                                    <ul class="tagbox posTL">
+                                        <li><img src="../image/flag_onlywp.png" alt="원더 단독"></li>
+                                    </ul>
+                                </div>
+                                <p class="prd_brand">아웃도어프로덕츠</p>
+                                <p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투</p>
+                                <div class="price_box">
+                                    <p>
+                                        <span class="price_current">81,000<em>원</em></span>
+                                    </p>
+                                </div>
+                                <ul class="util_btn">
+                                    <li><a href="javascript:;" class="btn_wish32">좋아요</a></li>
+                                </ul>
+                                <a href="javascript:;" class="link_prd_detail"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bline"></div>
+                    
+                    <!-- 검색결과 없을 경우 -->
+                    <div class="result_none type_full" style="display:none;">
+                        <i class="ico_warn"><img src="../image/ico_warn01.png" alt=""></i>
+                        <p class="mt5">
+                            <span>sad5asd 에 대한</span>
+                            <span>검색결과가 없습니다.</span>
+                        </p>
+                    </div>
+                    <!-- //검색결과 없을 경우 -->
+
+                </div>
+                <!-- //검색 후 -->                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //통합검색 팝업 -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

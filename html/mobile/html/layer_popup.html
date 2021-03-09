@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/product.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">레이어팝업 - 기본</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popCouponList">할인쿠폰 받기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popIosSafari">iOS Safari 브라우저 이용시 유의사항</a></li>
+		</ul>
+		<h2 class="popup_sample_title">레이어팝업 - 심플타입</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popWish">위시리스트 추가</a></li>
+		</ul>
+		<h2 class="popup_sample_title">레이어팝업 - 풀타입</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popBenefit">구매혜택 영역 > 상세보기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popQnaWrite">상품문의 탭 > 문의하기</a></li>
+		</ul>
+		<h2 class="popup_sample_title">레이어팝업 - dim형</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popShare">공유하기</a></li>
+		</ul>
+		<h2 class="popup_sample_title">레이어팝업 - 특수형</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popImgViewer01">상품평 > 이미지 크게보기(단일이미지)</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popImgViewer02">상품평 > 이미지 크게보기</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popImgViewerList">상품평 > 이미지 전체보기</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap" id="popCouponList" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>할인쿠폰 발급</h2>
+			</div>
+			<div class="con_box">
+				<p><span>발급받은 쿠폰은 마이페이지에서</span><span>확인하실 수 있습니다.</span></p>
+				<div class="scroll_box mt20">
+					<ul>
+						<li>[S/S 신상품 전용] 5% 할인쿠폰</li>
+						<li>[브랜드 런칭] 10% 쿠폰</li>
+						<li>[S/S 신상품 전용] 5% 할인쿠폰</li>
+						<li>[브랜드 런칭] 10% 쿠폰</li>
+						<li>[S/S 신상품 전용] 5% 할인쿠폰</li>
+						<li>[브랜드 런칭] 10% 쿠폰</li>
+					</ul>
+				</div>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_red02 pop_close">쿠폰 모두 받기</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popIosSafari" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>iOS Safari 브라우저 이용시 유의사항</h2>
+			</div>
+			<div class="con_box">
+				<ul class="list_type_dash">
+					<li>iOS Safari 브라우저 보안이슈로 현재 국민/우리/전북/수협 카드사 결제가 불가능합니다.</li>
+					<li>
+						iPhone 및 iPad에서 iOS 11.3 이상 업데이트 후 결제 오류 발생 시 아래와 같이 조치해주시기 바랍니다.
+						<p class="txt02 mt20">설정 > Safari > 위조된 웹사이트 경고 > OFF 로 전환 위조된 웹사이트 경고가 OFF 인데도 결제가 되지 않는 경우, OFF → ON → OFF로 재설정</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_simple" id="popWish" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p>위시리스트에 추가되었습니다.</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black02 pop_close">닫기</button>
+				<button type="button" class="btn btn_red02 pop_close">위시리스트 확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_nobg" id="popShare" style="display:none;">
+	<div class="pop_inner pop_close">
+		<div class="pop_wrap">
+			<div class="share_box">
+				<p class="prd_img"><img src="../image/temp/img_thm01.jpg" alt="" /></p>
+				<p class="prd_txt01"><span>아웃도어프로덕츠</span><span>OUTDOOR PRODUCTS</span></p>
+				<p class="prd_txt02">MONTEREY 2WAY SHOULDER 몬트리 투</p>
+			</div>
+			<ul class="share_btns">
+				<li><a href="javascript:;"><img src="../image/ico_share_kakaotalk.jpg" alt="kakaotalk" /></a></li>
+				<li><a href="javascript:;"><img src="../image/ico_share_facebook.jpg" alt="facebook" /></a></li>
+				<li><a href="javascript:;"><img src="../image/ico_share_url.jpg" alt="url" /></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popBenefit" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>구매혜택</h2>
+			</div>
+			<div class="con_box">
+				<dl>
+					<dt>구매혜택</dt>
+					<dd>
+						<ul class="list_type_dash type_tbl">
+							<li><span>브랜드 전용 10% 할인</span><span>-5,000원</span></li>
+							<li><span>S/S 추가 행사 할인 10%</span><span>-5,000원</span></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt>무이자 할부 혜택</dt>
+					<dd>
+						<!-- module : 구매혜택 리스트 -->
+						<ul class="mod_benefit_list">
+							<li>
+								<div class="card_img">
+									<img src="../image/temp/benefit_card_img01.png" alt="KB국민카드" />
+								</div>
+								<ul class="list_type_dash">
+									<li>2~7개월 / 5만원 이상 / 무이자할부</li>
+									<li><span>10개월 / 5만원 이상 무이자 할부</span><span>(1~2회차 수수료 회원부담)</span></li>
+								</ul>
+							</li>
+							<li>
+								<div class="card_img">
+									<img src="../image/temp/benefit_card_img01.png" alt="KB국민카드" />
+								</div>
+								<ul class="list_type_dash">
+									<li>2~7개월 / 5만원 이상 / 무이자할부</li>
+									<li><span>10개월 / 5만원 이상 무이자 할부</span><span>(1~2회차 수수료 회원부담)</span></li>
+								</ul>
+							</li>
+							<li>
+								<div class="card_img">
+									<img src="../image/temp/benefit_card_img01.png" alt="KB국민카드" />
+								</div>
+								<ul class="list_type_dash">
+									<li>2~7개월 / 5만원 이상 / 무이자할부</li>
+									<li><span>10개월 / 5만원 이상 무이자 할부</span><span>(1~2회차 수수료 회원부담)</span></li>
+								</ul>
+							</li>
+							<li>
+								<div class="card_img">
+									<img src="../image/temp/benefit_card_img01.png" alt="KB국민카드" />
+								</div>
+								<ul class="list_type_dash">
+									<li>2~7개월 / 5만원 이상 / 무이자할부</li>
+									<li><span>10개월 / 5만원 이상 무이자 할부</span><span>(1~2회차 수수료 회원부담)</span></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- //module : 구매혜택 리스트 -->
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap type_full" id="popQnaWrite" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>상품문의</h2>
+			</div>
+			<div class="con_box">
+				<div class="form_wrap">
+					<div class="sel_box">
+						<select>
+							<option>상품문의</option>
+						</select>
+					</div>
+					<div class="sel_box">
+						<select>
+							<option>상세유형선택</option>
+						</select>
+					</div>
+					<div class="input_box">
+						<input type="text" name="" value="" placeholder="제목을 입력해주세요." />
+					</div>
+					<div class="textarea_box">
+						<textarea name="" placeholder="문의내용을 입력해주세요."></textarea>
+					</div>
+				</div>
+				<dl>
+					<dt>사진등록 (선택)</dt>
+					<dd>
+						<ul class="qna_thm_list">
+							<li>
+								<div><img src="../image/temp/img_thm01.jpg" alt="" /></div>
+								<a href="javascript:;" class="btn_del_img posTR">삭제</a>
+							</li>
+							<li>
+								<div><img src="../image/temp/img_thm02.jpg" alt="" /></div>
+								<a href="javascript:;" class="btn_del_img posTR">삭제</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="btn_add_img">+</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt>답변알림 요청</dt>
+					<dd>
+						<dl class="form_wrap">
+							<dt class="input_box">
+								<input type="checkbox" name="" id="" />
+								<label for="">이메일</label>
+							</dt>
+							<dd class="input_box">
+								<input type="text" name="" value="abc@gmail.com" placeholder="" />
+							</dd>
+						</dl>
+						<dl class="form_wrap">
+							<dt class="input_box">
+								<input type="checkbox" name="" id="" />
+								<label for="">휴대폰</label>
+							</dt>
+							<dd class="input_box">
+								<input type="text" name="" value="01012345678" placeholder="" />
+							</dd>
+						</dl>
+					</dd>
+				</dl>
+				<div class="form_wrap mt20">
+					<div class="input_box">
+						<input type="checkbox" name="" id="" />
+						<label for=""><strong>비밀글로 문의하기</strong></label>
+					</div>
+				</div>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_red02 pop_close">등록</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap viewer" id="popImgViewer01" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>구매혜택</h2>
+			</div>
+			<!-- <a href="javascript:;" class="btn_all_list pop_close pop_open" data-target="#popImgViewerList">리스트 전체보기</a> -->
+			<div class="viewer_wrap">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div class="img_box"><img src="../image/temp/org_img01.jpg" alt="" /></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap viewer" id="popImgViewer02" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>구매혜택</h2>
+			</div>
+			<a href="javascript:;" class="btn_all_list pop_close pop_open" data-target="#popImgViewerList">리스트 전체보기</a>
+			<div class="viewer_wrap">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div class="img_box"><img src="../image/temp/org_img01.jpg" alt="" /></div>
+						<ul class="prd_review_list posBL">
+							<li>
+								<div class="review_info">
+									<p class="mod_star_wrap score8"><span>8점</span></p><!-- score0 ~ 10 : 별 0.5개 단위 -->
+									<p class="opts"><strong>90</strong><span>사이즈가 적당해요</span></p>
+									<p class="opts"><strong>Beige</strong><span>화면이랑 같아요</span></p>
+								</div>
+								<div class="detail_box scroll_box h88">
+									<p>어두운베이지입니다. 봄에 입기에 어둡네요. 유형을 타는 제품이 아니라 가을에 입어야 합니다. 어두운베이지입니다.어두운베이지입니다. 봄에 입기에 어둡네요. 유형을 타는 제품이 아니라 가을에 입어야 합니다. 어두운베이지입니다.어두운베이지입니다. 봄에 입기에 어둡네요. 유형을 타는 제품이 아니라 가을에 입어야 합니다. 어두운베이지입니다.</p>
+								</div>
+								<div class="user_info">
+									<p class="info01 opts"><span>my*****</span><span>2019. 12. 03</span></p>
+									<p class="info02 opts"><span>25세</span><span>187cm</span><span>68kg</span></p>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="swiper-button-next"></div>
+    		<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap viewer" id="popImgViewerList" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>구매혜택</h2>
+			</div>
+			<!-- <a href="javascript:;" class="btn_all_list">리스트 전체보기</a> -->
+			<div class="viewer_wrap">
+				<ul class="thm_list">
+					<li><a href="javascript:;"><img src="../image/temp/img_thm01.jpg" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="../image/temp/img_thm02.jpg" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="../image/temp/img_thm03.jpg" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="../image/temp/img_thm01.jpg" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="../image/temp/img_thm02.jpg" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="../image/temp/img_thm03.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

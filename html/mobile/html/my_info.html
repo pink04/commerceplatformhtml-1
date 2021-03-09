@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/mypage.css">
+</head>
+<body>
+<main id="wrap">
+	<!-- header -->
+	<header id="header" class="pos_fixed">
+		<div class="inner fix_el">
+			<h1>내 정보 관리</h1>
+			<div class="l_box">
+				<a href="javascript:;" class="btn_back">뒤로가기</a>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+
+	<!-- content -->
+	<div id="content">
+		<!-- page wrapper -->
+		<div class="mypage_wrap">
+			<div class="myinfo_wrap">
+				<!-- [D] 200330 콘텐츠 분리 -->
+				<div id="cont_myinfo" class="cons pb100">
+					<h3 class="tit_box02">
+						<span>회원정보<a href="javascript:;" class="btn_arrow float_r">회원정보수정</a></span>
+					</h3>
+					<div class="inner">
+						<div class="info_tbl mt20">
+							<dl>
+								<dt>아이디</dt>
+								<dd>abc1234@naver.com</dd>
+							</dl>
+							<dl>
+								<dt>고객명</dt>
+								<dd>홍길동</dd>
+							</dl>
+							<dl>
+								<dt>연락처</dt>
+								<dd>010-1234-5678</dd>
+							</dl>
+							<dl>
+								<dt>생년월일</dt>
+								<dd>1991.01.01</dd>
+							</dl>
+							<dl>
+								<dt>성별</dt>
+								<dd>남자</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="bline mt30"></div>
+				
+					<h3 class="tit_box02">
+						<span>기본 배송지 정보</span>
+					</h3>
+					<div class="inner mt20">
+						<div class="btn_wrap no_pad">
+							<button type="button" class="btn btn_black"><i class="ico_ship"></i>배송지 직접입력</button>
+						</div>
+						<div class="btn_wrap no_pad mt5">
+							<button type="button" class="btn btn_black"><i class="ico_loca"></i>현재위치를 배송지로 등록</button>
+						</div>
+						<p class="sub_txt02 color_gray mt5">※ 이벤트 당첨 시 경품 또는 기타 안내 사항 등은 기본 배송지로 배송됩니다.</p>
+					</div>
+					<div class="bline mt30"></div>
+				
+					<!-- 기본 배송지 정보 등록되어 있는 경우 -->
+					<h3 class="tit_box02">
+						<span>
+							기본 배송지 정보<em class="tag">원더딜리 가능</em>
+							<a href="javascript:;" class="btn_arrow float_r">변경</a>
+						</span>
+					</h3>
+					<div class="inner mt20">
+						<div class="info_tbl">
+							<dl>
+								<dt>받으시는 분</dt>
+								<dd>홍길동</dd>
+							</dl>
+							<dl>
+								<dt>연락처</dt>
+								<dd>010-1234-5678</dd>
+							</dl>
+							<dl>
+								<dt>주소</dt>
+								<dd>서울시 강동구 길1동 368-1<br>삼성아파트 1001동 101호</dd>
+							</dl>
+						</div>
+						<p class="sub_txt02 color_gray mt5">※ 이벤트 당첨 시 경품 또는 기타 안내 사항 등은 기본 배송지로 배송됩니다.</p>
+					</div>
+					<div class="bline mt30"></div>
+					<!-- //기본 배송지 정보 등록되어 있는 경우 -->
+				
+					<h3 class="tit_box02">
+						<span>마케팅(광고성) 정보 수신</span>
+					</h3>
+					<div class="inner mt20">
+						<ul class="switch_list gutter50">
+							<li><span>SMS</span><a href="javascript:;" class="btn_switch active"></a></li>
+							<li><span>이메일</span><a href="javascript:;" class="btn_switch active"></a></li>
+						</ul>
+						<p class="sub_txt02 color_gray mt5">※ 중요 안내사항 및 주문/배송에 대한 정보는 위 수신 여부와 관계없이 발송됩니다. (이메일은 아이디로 입력하신 이메일주소로 발송
+							됩니다.)</p>
+					</div>
+				</div>
+				<!-- //[D] 200330 콘텐츠 분리 -->
+				
+				<!-- [D] 200330 탭 영역 삭제 -->
+				<!-- <div class="mod_tab_wrap">
+					<div class="tab_menu type02">
+						<ul>
+							<li class="active"><a href="javascript:;">회원정보수정</a></li>
+							<li><a href="javascript:;">회원등급안내</a></li>
+						</ul>
+					</div>
+
+					<div class="tab_cont">
+					
+						<div id="cont_mylvl" class="cons" style="">
+							<div class="inner pt30 pb15">
+								<div class="member_info">
+									<p class="tag_lvl">
+										<img src="../image/tag_lvl_regular.png" alt="regular">
+										<img src="../image/tag_lvl_vip.png" alt="vip">
+										<img src="../image/tag_lvl_premium.png" alt="premium">
+									</p>
+									<p class="txt pt10"><span>홍길동</span>님의 현재 회원등급은<br><span class="color_blue">프리미엄</span>입니다.</p>
+								</div>
+								<div class="tbl_wrap pt20">
+									<table class="mod_tbl_row01">
+										<caption>회원 상세 정보</caption>
+										<colgroup>
+											<col style="width:65px;">
+											<col style="width:auto;">
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="row">가입일</th>
+												<td>2019. 01. 02</td>
+											</tr>
+											<tr>
+												<th scope="row">구매횟수</th>
+												<td>30건</td>
+											</tr>
+											<tr>
+												<th scope="row">구매금액</th>
+												<td>384,100원</td>
+											</tr>
+											<tr>
+												<th scope="row">신청기간</th>
+												<td>2019. 07. 01 ~ 2019. 12. 31</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<ul class="list_type_dash pt15">
+									<li>회원등급 혜택은 정회원일 경우에만 받을 수 있습니다.<br>
+										<span class="color_red">(준회원일 경우 구매금액 상관없이 일반등급으로 적용됩니다.)</span></li>
+									<li>가입일로부터 지난 달 말일까지 쇼핑 내역(배송완료 기준)을 반영한 회원등급입니다. (매달 1일 변경)</li>
+									<li>회원등급 및 혜택은 고객님께 사전통지 후 변경될 수 있습니다.</li>
+								</ul>
+								<div class="txt_box pt30">
+									<p class="txt bg_f7f7f7">다음 등급까지 남은 금액은 <b>450,000</b>원 입니다.</p>
+								</div>
+							</div>
+							<div class="bline"></div>
+							<div class="togg_wrap">
+								<h3 class="tit_box"><span>회원등급 혜택 및 안내</span><a href="javascript:;" class="togg_btn"></a></h3>
+								<div class="togg_con">
+									<ul class="list_lvl">
+										<li>
+											<p class="tag_lvl">
+												<img src="../image/tag_lvl_regular.png" alt="regular">
+											</p>
+											<div class="tbl_wrap">
+												<table>
+													<caption>REGULAR</caption>
+													<colgroup>
+														<col style="width:70px;">
+														<col style="width:auto;">
+													</colgroup>
+													<tbody>
+														<tr>
+															<th scope="row">구매금액</th>
+															<td>50만원 미만</td>
+														</tr>
+														<tr>
+															<th scope="row">구매건수</th>
+															<td>1건 이상</td>
+														</tr>
+														<tr>
+															<th scope="row">원더코인 적립</th>
+															<td>1%</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</li>
+										<li>
+											<p class="tag_lvl">
+												<img src="../image/tag_lvl_premium.png" alt="regular">
+											</p>
+											<div class="tbl_wrap">
+												<table>
+													<caption>PREMIUM</caption>
+													<colgroup>
+														<col style="width:70px;">
+														<col style="width:auto;">
+													</colgroup>
+													<tbody>
+														<tr>
+															<th scope="row">구매금액</th>
+															<td>50~100만원 미만</td>
+														</tr>
+														<tr>
+															<th scope="row">구매건수</th>
+															<td>1건 이상</td>
+														</tr>
+														<tr>
+															<th scope="row">원더코인 적립</th>
+															<td>1%</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</li>
+										<li>
+											<p class="tag_lvl">
+												<img src="../image/tag_lvl_vip.png" alt="regular">
+											</p>
+											<div class="tbl_wrap">
+												<table>
+													<caption>VIP</caption>
+													<colgroup>
+														<col style="width:70px;">
+														<col style="width:auto;">
+													</colgroup>
+													<tbody>
+														<tr>
+															<th scope="row">구매금액</th>
+															<td>100만원 이상</td>
+														</tr>
+														<tr>
+															<th scope="row">구매건수</th>
+															<td>1건 이상</td>
+														</tr>
+														<tr>
+															<th scope="row">원더코인 적립</th>
+															<td>1%</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- //[D] 200330 탭 영역 삭제 -->
+			</div>
+		</div>
+		<!-- //page wrapper -->
+	</div>
+	<!-- //content -->
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="inner">
+			<h1 class="logo_f"><img src="../image/logo_f.png" alt="" /></h1>
+			<ul class="util_f">
+				<li><a href="javascript:;" class="btn_facebook">facebook</a></li>
+				<li><a href="javascript:;" class="btn_instagram">instagram</a></li>
+			</ul>
+			<div class="info_f">
+				<dl><dt class="hide">주소</dt><dd>서울시 성동구 성수일로6길 33 아연디지털타워 5층</dd></dl>
+				<dl><dt>사업자등록번호</dt><dd>201-86-20597</dd></dl>
+				<dl><dt>통신판매업신고</dt><dd>2015-서울성동-0794호</dd></dl>
+				<dl><dt>대표</dt><dd>김영한</dd></dl>
+				<dl><dt>개인정보보호책임자</dt><dd>한인자</dd></dl>
+				<dl><dt>문의</dt><dd>1688-3508 / cs@wonderplace.co.kr</dd></dl>
+			</div>
+			<div class="menu_f">
+				<div class="btn_wrap gutter5">
+					<a href="javascript:;" class="btn btn_white">사업자정보확인</a>
+					<a href="javascript:;" class="btn btn_white">에스크로서비스 가입확인</a>
+				</div>
+				<ul>
+					<li><a href="javascript:;">회사소개</a></li>
+					<li><a href="javascript:;">이용약관</a></li>
+					<li><a href="javascript:;">개인정보처리방침</a></li>
+					<li><a href="javascript:;">입점문의</a></li>
+					<li><a href="javascript:;">매장안내</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+</main>
+
+<!-- layer popup -->
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

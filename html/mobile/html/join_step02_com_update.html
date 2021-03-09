@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/member.css">
+</head>
+<body>
+<main id="wrap">
+	<!-- header -->
+	<header id="header" class="pos_fixed">
+		<div class="inner fix_el">
+			<h1>회원가입</h1>
+			<div class="r_box">
+				<a href="javascript:;" class="btn_close"></a>
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+
+	<!-- content -->
+	<div id="content">
+		<!-- page wrapper -->
+		<div class="member_wrap">
+			<div class="join_wrap fix_pd">
+				<div class="inner">
+					<dl class="form_wrap02">
+						<dt>아이디(이메일)</dt>
+						<dd>
+							<div class="input_box">
+								<input type="text" name="" id="" value="abcd@naver.com" placeholder="아이디로 사용할 이메일을 입력해주세요." />
+								<label for="" class="hide">아이디(이메일)</label>
+							</div>
+							<p class="sub_txt01">사용가능한 이메일입니다.</p>
+							<!-- <div class="input_box">
+								<input type="text" name="" id="" value="abc1234@naver.com" placeholder="아이디로 사용할 이메일을 입력해주세요." disabled />
+								<label for="" class="hide">아이디(이메일)</label>
+							</div>
+							<p class="sub_txt01 color_red">
+								<span>SNS간편가입으로 가입된 이메일 주소 입니다.</span>
+								<span>가입하신 SNS으로 로그인 후 본인인증을 하면 정회원으로 가입되며, 다양한 혜택을 받을 수 있습니다.</span>
+							</p> -->
+						</dd>
+					</dl>
+					<!-- <dl class="form_wrap02 mt30">
+						<dt>SNS로그인 인증</dt>
+						<dd>
+							<div class="btn_wrap no_pad">
+								<button type="button" class="btn btn_black pop_open" data-target="#popCheckLogin">네이버 ID로 로그인</button>
+							</div>
+							<div class="btn_wrap no_pad">
+								<button type="button" class="btn btn_black chk_cert">네이버 ID 인증완료</button>
+							</div>
+						</dd>
+					</dl> -->
+					<dl class="form_wrap02 mt30">
+						<dt>비밀번호</dt>
+						<dd>
+							<div class="input_box">
+								<input type="password" name="" id="" value="123qwe!@#" placeholder="영문+숫자+특수문자 조합 8~16자리" />
+								<label for="" class="hide">비밀번호입력</label>
+							</div>
+							<!-- <p class="sub_txt01 color_red">비밀번호 형식에 맞지 않습니다.</p> -->
+						</dd>
+						<dd>
+							<div class="input_box">
+								<input type="password" name="" id="" value="123qwe!@#" placeholder="비밀번호 확인" />
+								<label for="" class="hide">비밀번호확인</label>
+							</div>
+							<!-- <p class="sub_txt01 color_red">비밀번호가 일치하지 않습니다.</p> -->
+						</dd>
+					</dl>
+					<!-- <div class="btn_wrap no_pad mt20">
+						<button type="button" class="btn btn_black">본인인증 하기</button>
+					</div> -->
+					<div class="btn_wrap no_pad mt20">
+						<button type="button" class="btn btn_black chk_cert">본인인증 완료</button><!-- //인증완료 시, chk_cert 공통 -->
+					</div>
+				</div>
+
+				<!-- 2020.07.16 약관 동의 추가 -->
+				<div class="inner agreegroup mt60">
+					<div class="input_box agree_item">
+						<input type="checkbox" name="" id="">
+						<label for="">[필수] 서비스 이용약관 동의</label>
+						<a href="javascript:;" class="agree_more agree_term_01">+더보기</a>
+						<div class="agree_detail box_gray mb20">
+							<div id="agree_detail_01" class="scroll_box type02 h60">
+								<p>전시 공통 > 이용약관</p>
+							</div>
+						</div>
+					</div>
+					<div class="input_box agree_item">
+						<input type="checkbox" name="" id="">
+						<label for="">[필수] 개인정보 수집 및 이용 동의</label>
+						<a href="javascript:;" class="agree_more agree_term_02">+더보기</a>
+						<div class="agree_detail box_gray mb20">
+							<div id="agree_detail_02" class="scroll_box type02 h60">
+								<p>전시공통 콘텐츠 > 개인정보 수집 및 이용 동의 (기존 회원가입 시 개인정보보호정책에 나오던 내용 부분)</p>
+							</div>
+						</div>
+					</div>
+					<div class="input_box agree_item">
+						<input type="checkbox" name="" id="">
+						<label for="">[선택] 마케팅 정보 수신 동의</label>
+						<a href="javascript:;" class="agree_more agree_term_03">+더보기</a>
+						<div class="agree_detail box_gray">
+							<div id="agree_detail_03">
+								<div class="input_box agree_mkt">
+									<input type="checkbox" name="" id="">
+									<label for="">SMS</label>
+								</div>
+								<div class="input_box agree_mkt">
+									<input type="checkbox" name="" id="">
+									<label for="">E-Mail</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>중요 안내사항 및 주문/배송에 대한 정보는 위 수신여부와 관계 없이 발송됩니다.</p>
+					<div class="btn_wrap no_pad mt40">
+						<button type="button" class="btn btn_h56 btn_black03">모두 동의하기</button>
+					</div>
+				</div>
+				<!-- // 2020. 07. 16 약관 동의 -->
+
+				<!-- 2020. 07. 16 기존 약관 관련 내용 제거, 버튼명 수정 -->
+				<div class="fix_bottom_wrap fixed">
+					<div class="btn_wrap no_pad">
+						<button type="button" class="btn btn_h56 btn_red02">가입하기</button>
+					</div>
+				</div>
+				<!--// 2020. 07. 16 기존 약관 관련 내용 제거, 버튼명 수정 -->
+			</div>
+		</div>
+		<!-- //page wrapper -->
+	</div>
+	<!-- //content -->
+
+	<!-- footer -->
+	
+	<!-- //footer -->
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap type_simple" id="popJoinEmail" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<div class="con_box">
+				<p class="txt02 txt_l">
+					<span>원더플레이스를 이용하기 위해서는 이메일이 필요합니다.</span>
+					<span><strong>해당 SNS에 이메일을 등록 후</strong> 다시 진행해주세요.</span>
+				</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="layer_pop_wrap" id="popCheckLogin" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>꼭 확인해주세요!</h2>
+			</div>
+			<div class="con_box">
+				<table class="mod_tbl_type02" cellpadding="0" cellspacing="0" border="0">
+					<tr><th>입력한 이메일</th></tr>
+					<tr><td>abc1234@naver.com</td></tr>
+					<tr><th>SNS 로그인한 이메일</th></tr>
+					<tr><td>abc123@naver.com</td></tr>
+				</table>
+				<p class="txt02 mt15"><span>입력한 이메일과 SNS 로그인 이메일이 다릅니다.</span><span>SNS 로그인 이메일로 진행하시겠습니다.</span></p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">아니오</button>
+				<button type="button" class="btn btn_red02 pop_close">예</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- [D] 200319 계정 확인 팝업 추가 -->
+<div class="layer_pop_wrap" id="popConfirmEmail" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap pt30">
+			<div class="con_box">
+				<p><span class="txt_b500">SNS 메일 계정을 확인바랍니다.</span><span class="color_gray">입력하신 메일주소로 등록된 계정이 없습니다.</span></p>
+				<div class="input_box btn_right88 mt10">
+					<input type="text" name="" value="" placeholder="이메일을 입력하세요.">
+					<a href="javascript:;" class="btn btn_w88 btn_h45 btn_black">중복확인</a>
+				</div>
+				<p class="txt04 color_gray02 pt5">사용 가능한 메일입니다.</p>
+				<p class="mt10 pb15">이메일을 등록하시면 SNS계정과 연결 후 준회원 회원가입이 완료됩니다.</p>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">확인</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //[D] 200319 계정 확인 팝업 추가 -->
+
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

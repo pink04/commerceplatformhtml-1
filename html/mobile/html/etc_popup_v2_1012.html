@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/customer.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body class="layer_activated">
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">푸터 하단 메뉴 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popStoreInfo">매장안내</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popStoreInquiry">입점제안</a></li>
+			<li><a href="javascript:;" class="pop_open" data-target="#popTerms">이용약관</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- 매장 안내 팝업 -->
+<div class="layer_pop_wrap type_full" id="popStoreInfo" style="display:none;">
+    <div class="pop_inner">
+        <div class="pop_wrap">
+            <a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+            <div class="tit_box bb0">
+                <h2>매장안내</h2>
+            </div>
+            <div class="con_box">
+                <h3 class="sub_tit txt_c">원더플레이스 매장 안내</h3>
+                <div class="sel_box pt10">
+                    <select>
+                        <option>지역을 선택해주세요.</option>
+                    </select>
+                </div>
+                <div class="mod_store_list">
+
+                    <!-- 검색 결과 있을 시 -->
+                    <dl>
+                        <dt class="pt15">매장 검색 결과 (총 5건)</dt>
+                        <dd class="mt0">
+                            <ul>
+                                <li>
+                                    <p class="txt">
+                                        원더플레이스 강남점<br />
+                                        02-1234-1234<br />
+                                        서울특별시 강남구 역삼동 619-18
+                                        <span>
+                                            영업시간 : 10:30 ~ 21:00<br />
+                                            (연중무휴 / 설날, 추석 당일 14시 오픈)
+                                        </span>
+                                    </p>
+                                    <div class="btn_wrap">
+                                        <button type="button" class="btn btn_black pop_open" data-target="#popStorePlace">매장 위치</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="txt">
+                                        원더플레이스 강남점<br />
+                                        02-1234-1234<br />
+                                        서울특별시 강남구 역삼동 619-18
+                                        <span>
+                                            영업시간 : 10:30 ~ 21:00<br />
+                                            (연중무휴 / 설날, 추석 당일 14시 오픈)
+                                        </span>
+                                    </p>
+                                    <div class="btn_wrap">
+                                        <button type="button" class="btn btn_black pop_open" data-target="#popStorePlace">매장 위치</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="txt">
+                                        원더플레이스 강남점<br />
+                                        02-1234-1234<br />
+                                        서울특별시 강남구 역삼동 619-18
+                                        <span>
+                                            영업시간 : 10:30 ~ 21:00<br />
+                                            (연중무휴 / 설날, 추석 당일 14시 오픈)
+                                        </span>
+                                    </p>
+                                    <div class="btn_wrap">
+                                        <button type="button" class="btn btn_black pop_open" data-target="#popStorePlace">매장 위치</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <!-- //검색 결과 있을 시 -->
+
+                    <!-- 검색 결과 없을 시 -->
+                    <div class="data_none">
+                        <div class="inner">
+                            <img src="../image/ico_warn01.png" alt="" />
+                            <p class="txt">검색 결과가 없습니다.</p>
+                        </div>
+                    </div>
+                    <!-- //검색 결과 없을 시 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 매장 위치 팝업 -->
+<div class="layer_pop_wrap" id="popStorePlace" style="display:none;">
+    <div class="pop_inner">
+        <div class="pop_wrap">
+            <a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+            <div class="tit_box">
+                <h2>매장위치</h2>
+            </div>
+            <div class="con_box">
+                <p class="txt">
+                    원더플레이스 강남점<br />
+                    02-1234-1234<br />
+                    서울특별시 강남구 역삼동 619-18
+                    <span>
+                        영업시간 : 10:30 ~ 21:00<br />
+                        (연중무휴 / 설날, 추석 당일 14시 오픈)
+                    </span>
+                </p>
+
+                <div class="mod_img_slide" style="height: auto; margin-top:20px;">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><img src="https://cdn.wonderplace.co.kr/cdn/contents/offline_store/20/offline_store_20_1597977596662.png" alt=""></li>
+                        <li class="swiper-slide"><img src="https://cdn.wonderplace.co.kr/cdn/contents/offline_store/20/offline_store_20_1597977596114.png" alt=""></li>
+                        <li class="swiper-slide"><img src="https://cdn.wonderplace.co.kr/cdn/contents/offline_store/20/offline_store_20_1597977595158.png" alt=""></li>
+                    </ul>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <div class="map_area map_wrap" style="background-color:#f9f9f9;">지도영역</div> <!-- 배경 색상은 임의로 지정해 놓은 것이니 삭제해주시기 바랍니다. -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //매장 위치 팝업 -->
+<!-- //매장 안내 팝업 -->
+
+<!-- 입점 제안 팝업 -->
+<div class="layer_pop_wrap type_full" id="popStoreInquiry" style="display:none;">
+    <div class="pop_inner">
+        <div class="pop_wrap">
+            <a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+            <div class="tit_box bb0">
+                <h2>입점제안</h2>
+            </div>
+            <div class="con_box pop_store_inquiry">
+                <div class="txt_box">
+                    <img src="../image/logo_join_com.png" alt="" />
+                    <p class="txt">
+                        원더플레이스 쇼핑몰 입점을 원하시는 분들은<br />
+                        입점신청서 파일을 다운로드 받은 후 작성해서 등록해주세요.<br />
+                        모든 입점 제안은 담당자가 확인 후 회신 드립니다.
+                    </p>
+                    <div class="btn_wrap">
+                        <button type="button" class="btn btn_h40 btn_red">입점신청서 다운로드</button>
+                    </div>
+                </div>
+                <dl class="form_wrap02">
+                    <dd>
+                        <div class="input_box">
+                            <input type="text" name="" value="" placeholder="업체명">
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="input_box">
+                            <input type="text" name="" value="" placeholder="브랜드">
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="input_box">
+                            <input type="text" name="" value="" placeholder="담당자">
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="input_box">
+                            <input type="text" name="" value="" placeholder="이메일">
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="input_box">
+                            <input type="text" name="" value="" placeholder="연락처">
+                        </div>
+                    </dd>
+                    <dd class="mt20">
+                        <dt>희망 카테고리</dt>
+                        <div class="input_box">
+                            <div class="cate_select">
+                                <input type="checkbox" name="" id="">
+                                <label class="mr20" for="">여성</label>
+                            </div>
+                            <div class="cate_select">
+                                <input type="checkbox" name="" id="">
+                                <label class="mr20" for="">남성</label>
+                            </div>
+                            <div class="cate_select">
+                                <input type="checkbox" name="" id="">
+                                <label class="mr20" for="">슈즈</label>
+                            </div>
+                            <div class="cate_select">
+                                <input type="checkbox" name="" id="">
+                                <label for="">액세서리</label>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+                <p class="txt">이메일/휴대전화 등 개인정보 수집에 동의합니다.</p>
+                <div class="btn_wrap pd_none">
+                    <button type="button" class="btn btn_gray02">제안 신청하기  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //입점 제안 팝업 -->
+
+<!-- 이용 약관 팝업 -->
+<div class="layer_pop_wrap type_full" id="popTerms" style="display:table;">
+    <div class="pop_inner">
+        <div class="pop_wrap">
+            <a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+            <div class="tit_box bb0">
+                <h2>이용약관</h2>
+            </div>
+            <div class="con_box">
+                <div class="txt_box">
+                  <p>개인정보처리방침</p>
+<br>
+<p>Ver 1.1</p>
+<br>
+<br>
+<p>본 개인정보 처리방침은 (주)원더플레이스 에서 제공하는 모든 서비스 (APP ,WEB , 오프라인 회원 서비스) 이용에 적용됩니다.</p>
+<br>
+<br>
+<br>
+<p><b>1조 (총칙)</b></p>
+<br>
+<p>1. 개인정보란 살아 있는 개인에 관한 정보로서 성명, 휴대폰번호 등을 통하여 개인을 알아볼 수 있는 정보(해당 정보만으로 특정 개인을 알아볼 수 없더라도 다른 정보와 결합하여 쉽게 알아볼 수 있는 것을 포함)를 말합니다.</p>
+<br>
+<p>2. 주식회사 원더플레이스 (이하 '원더플레이스'이라 함)는 소중한 고객의 개인정보를 안전하게 처리하기 위하여, 『정보통신망 이용촉진 및 정보보호 등에 관한 법률』및『개인정보보호법』등 개인정보보호 관련 법령을 준수하고 있습니다. 
+<br>원더플레이스는 개인정보처리 방침을 통하여 고객이 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다. 
+</p>
+<br>
+<p>3. 원더플레이스는 개인정보처리방침을 홈페이지 첫 화면에 공개함으로써 고객이 언제나 용이하게 보실 수 있도록 조치하고 있습니다.</p>
+<br>
+<p>4. 개인정보처리방침의 지속적인 개선을 위하여 개인정보처리방침을 개정하는데 필요한 절차를 정하고 있으며, 개정 시 버전관리를 통하여 고객이 쉽게 확인할 수 있도록 하고 있습니다.</p>
+<br>
+<br>
+<br>
+<p><b>2조 (개인정보의 수집 이용 및 보유 파기)</b></p>
+<br>
+<p>원더플레이스는 별도의 회원가입 절차 없이 대부분의 컨텐츠에 자유롭게 접근할 수 있습니다. 원더플레이스의 서비스를 이용하는 경우 다음의 정보를 고객의 동의를 받아 수집할 수 있으며 선택사항의 동의를 거부하는 경우에도 회원가입 및 구매결제 등 필수서비스는 이용할 수 있습니다. 단, 일부 부가서비스는 제한될 수 있습니다.</p>
+<br>
+<p>1. 회원가입 및 주문, 결제 등 필요시점에서 수집하는 정보 </p>
+<table style="border:1px solid #707070; padding: 6px;">
+    <colgroup>
+        <col style="width:10%;">
+        <col style="width:10%;">
+        <col style="width:10%;">
+        <col style="width:25%;">
+        <col style="width:20%;">
+        <col style="width:15%;">
+    </colgroup>
+    <tbody>
+        <tr style="text-align: center; border:1px solid #707070; font-weight: bold;">
+            <td colspan="3" rowspan="1">
+                구분
+            </td>
+            <td>
+                수집항목
+            </td>
+            <td>
+                이용목적
+            </td>
+            <td>
+                보유기간
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="10" style="border-bottom:1px solid #707070;">
+                회원
+            </td>
+            <td colspan="2" rowspan="2" style="border-bottom:1px solid #707070;">
+                가입(필수)
+            </td>
+            <td>
+                [정회원] 이메일, 성명, 회원ID, 비밀번호, 휴대폰번호, 생년월일(연령확인 후 파기) [준회원] 회원ID, 비밀번호
+            </td>
+            <td>
+                회원가입 후 서비스 이용 및 상담, 공지사항 전달
+            </td>
+            <td colspan="1" rowspan="13">
+                회원탈퇴시 또는 법정 의무 보유기간
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom:1px solid #707070;">
+                미성년자 법정대리인 정보 (성명, 연락처)
+            </td>
+            <td style="border-bottom:1px solid #707070;">
+                법정대리인 본인확인
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" style="border-bottom:1px solid #707070;">
+                주문(필수)
+            </td>
+            <td>
+                결제정보(카드번호, 계좌번호, 휴대폰번호 등)
+            </td>
+            <td>
+                주문 상품의 결제
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom:1px solid #707070;">
+                배송정보(주문자/수취인 성명, 연락처, 배송지 주소)
+            </td>
+            <td style="border-bottom:1px solid #707070;">
+                물품 배송
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="4" style="border-bottom:1px solid #707070;">
+                SNS 연동
+            </td>
+            <td colspan="1">
+                네이버
+            </td>
+            <td>
+                이름, 이메일, 성별
+            </td>
+            <td rowspan="4" style="border-bottom:1px solid #707070;">
+                회원가입
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1" >
+                카카오
+            </td>
+            <td>
+                이름, 이메일, 성별
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1">
+                페이스북
+            </td>
+            <td>
+                이름, 성별
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1" style="border-bottom:1px solid #707070;">
+                애플
+            </td>
+            <td style="border-bottom:1px solid #707070;">
+                이름, 이메일 주소
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" style="border-bottom:1px solid #707070;">
+                기타(선택)
+            </td>
+            <td>
+                휴대폰번호
+            </td>
+            <td>
+                신규 서비스 / 상품 안내
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom:1px solid #707070;">
+                성별, 생년월일
+            </td>
+            <td style="border-bottom:1px solid #707070;">
+                마케팅 활용 및 광고성 정보 전달
+            </td>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="3">
+                비회원
+            </td>
+            <td colspan="2" rowspan="3">
+                주문(필수)
+            </td>
+            <td>
+                이메일, 성명, 휴대폰번호
+            </td>
+            <td>
+                주문 및 서비스 이용과 상담
+            </td>
+        </tr>
+        <tr>
+            <td>
+                결제정보(카드번호, 계좌번호, 휴대폰번호 등)
+            </td>
+            <td>
+                주문 상품의 결제
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="1">
+                배송정보 (주문자/수취인 성명, 연락처, 배송지 주소)
+            </td>
+            <td rowspan="1" colspan="1">
+                물품 배송
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<p>2. 그 밖에 서비스 이용과정에서 수집될 수 있는 정보는 아래와 같습니다.<br>
+- 쿠키, 서비스 이용기록(최근접속일, 접속 IP 정보, 구매로그, 이벤트로그), 기기정보(고유기기식별값, 단말기 OS버전)
+</p>
+<br>
+<p>3. 법령에 의하여 수집, 이용되는 회원 정보 </p>
+<p>이용자의 개인정보는 “개인정보파기절차 및 방법”의 기준으로 탈퇴요청 3일 후 개인정보 수집 및 이용목적이 달성되면 지체없이 파기 합니다. 
+다만, 통신비밀보호법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 
+이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+</p>
+<p>
+    <ul>
+        <li>① 대금결제 및 재화등의 공급에 관한 기록 : 5년 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
+        <li>② 계약 또는 청약철회 등에 관한 기록 : 5년 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
+        <li>③ 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
+        <li>④ 표시, 광고에 관한 기록 : 6개월 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
+        <li>⑤ 웹사이트 방문 기록 : 3개월 (통신비밀보호법)</li>
+    </ul>
+</p>
+<br>
+<br>
+<br>
+<p><b>3조 개인정보 제3자 제공</b></p>
+<br>
+<p>1. 주문, 결제가 이루어진 경우, 배송 및 상담 등 거래의 원활한 이행을 위하여 관련된 정보를 필요한 범위 내에서 판매자(제3자)에게 전달합니다. </p><br>
+<p>2. 주문 시에만 판매자(제3자)에게 개인정보가 제공되며 주문 시 개인정보의 제3자 제공에 대해 안내해 드립니다. </p><br>
+<p>3. 판매자(제3자)에게 개인정보 제공을 거부하실 수 있으나, 이 경우 서비스 이용이 제한될 수 있습니다.</p>
+<table style="border:1px solid #707070;">
+    <colgroup>
+        <col style="width: 20%">
+        <col style="width: 80%">
+    </colgroup>
+    <tbody>
+        <tr style="border-bottom:1px solid #707070; font-weight: bold; text-align: center;">
+            <td>제공받는 자</td>
+            <td>상품판매 제휴업체(입점사)</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>제공 목적</td>
+            <td>판매자와 입점사 간 주문/결제 거래 및 상담, 배송 등 원활한 거래 이행을 위하여 관련된 정보 제공</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>제공 정보</td>
+            <td>성명, 휴대폰 번호, 구매자 정보, 배송지 주소, 배송 요청 사항</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>보유 및 이용기간</td>
+            <td>재화 또는 서비스의 제공 목적이 달성된 후 파기<br>(단, 관계법령에 정해진 규정에 따라 법정기간 동안 보관)</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<p><b>4조 개인정보 처리 위탁 </b></p>
+<br>
+<p>원더플레이스는 수탁자들이 위탁한 개인정보를 안전하게 처리하고 있는지 지속적으로 관리 감독하고 있으며, 수탁업무 종료시 수탁자가 보유하고 있는 개인정보는 즉시 파기하게 하고 있습니다.</p>
+<table style="border:1px solid #707070;">
+        <colgroup>
+        <col style="width:45%;">
+        <col style="width:35%;">
+        <col style="width:20%;">
+    </colgroup>
+    <tbody>
+        <tr style="border-bottom:1px solid #707070; font-weight: bold; text-align: center;">
+            <td>수탁자</td>
+            <td>위탁업무</td>
+            <td>보유 및 이용기간</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>㈜다우기술(사방넷), 두손씨앤아이, (주)네모커머스(샵링커)</td>
+            <td>주문정보 처리</td>
+            <td rowspan="10">회원탈퇴 또는 위탁계약 종료 시</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>CJ대한통운, 메쉬코리아(부릉)</td>
+            <td>상품 배송</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>굿스플로</td>
+            <td>배송 추적 및 자동회수 접수</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>나이스페이먼츠</td>
+            <td>상품구매에 필요한 신용카드, 현금결제 등의 결제정보 전송</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>㈜드림시큐리티</td>
+            <td>휴대폰 본인확인</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>KT</td>
+            <td>SMS, MMS 등 문자 메시지 전송</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>주식회사 카카오</td>
+            <td>알림톡 서비스 제공  </td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>씨에스아이시스템즈</td>
+            <td>CS업무</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>㈜비원이즈, 크루메이트</td>
+            <td>서비스 제공을 위한 시스템 개발 및 운영</td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>아마존</td>
+            <td>데이터 보관</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<p><b>5조 개인정보 파기</b></p>
+<br>
+<p>1. 수집∙이용목적이 달성된 개인정보의 경우 별도의 DB에 옮겨져 내부 규정 및 관련 법령을 준수하여 안전하게 보관되며, 정해진 기간이 종료되었을 때 지체 없이 파기됩니다. 이때 별도의 DB로 옮겨진 개인정보는 이용자가 동의한 목적 또는 법률에 정해진 경우 외 다른 목적으로 이용되지 않습니다.</p>
+<br>
+<p>2. 원더플레이스의 개인정보 파기방법은 다음과 같습니다. 
+    <ul>
+        <li>① 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기</li>  
+        <li>② 전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제</li>
+    </ul>
+</p>
+<br>
+<br>
+<br>
+<p><b>6조 이용자의 권리</b></p>
+<br>
+<p>이용자 본인 및 법정대리인은 언제든지 수집된 정보에 대해 수정, 동의, 철회, 삭제, 열람 등을 요청할 수 있습니다. 다만 동의 철회, 삭제 시 서비스의 일부 또는 전부 이용이 제한될 수 있습니다.</p>
+<br>
+<p>1. 개인정보 열람<br>
+회원정보 및 주문/배송에 대한 정보는 서비스 내 ‘마이페이지’ 메뉴에서 직접 확인할 수 있으며, 서비스 이용 시 시스템에서 자동으로 생성되어 직접 확인하지 못하는 개인정보를 열람하고자 하는 경우에는 ‘고객센터’를 통해 연락 주시면 특별한 사유가 없는 한 근무일 기준 3일 이내에 조치합니다. 열람 방식은 이용자의 요청에 따라 정하며, 아래의 사유 등으로 열람이 늦어지거나 불가능한 경우는 신속하게 알려드립니다.
+<ul>
+    <li>개인정보 제공 시 서비스 또는 보안상 중대한 문제가 발생할 가능성이 있는 경우</li>
+    <li>다른 사람의 생명∙신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우</li>
+</ul>
+</p>
+<br>
+<p>2. 개인정보 수정<br>
+서비스 내 ‘마이페이지>회원정보 수정’ 메뉴를 통한 직접 수정 또는 고객센터를 통해 수정을 요청할 수 있고, 이 과정에서 수정을 위한 본인확인 등의 절차가 진행될 수 있습니다.
+</p>
+<br>
+<p>3. 개인정보 제공 동의 철회 및 삭제<br>
+서비스 내에서 이용자 본인이 직접 회원탈퇴(마이페이지>회원정보 수정>회원탈퇴)를 하거나 고객센터를 통해 수집된 정보의 제공 동의를 철회하거나 삭제를 요청할 수 있습니다. 
+다만, 이런 경우 서비스의 일부 또는 전체 이용이 제한될 수 있으며 법령에 따라 수집하는 정보의 경우 동의 철회, 삭제가 어려울 수 있습니다.
+</p>
+<br>
+<br>
+<br>
+<p><b>7조 이용자의 의무</b></p>
+<br>
+<p>1. 이용자는 개인정보를 보호받을 권리와 스스로를 보호하고 타인의 정보를 침해하지 않을 의무를 가지고 있습니다. 비밀번호를 포함한 이용자 개인정보가 유출되지 않도록 조심 하시고 게시물을 포함한 타인의 개인정보를 훼손하지 않도록 유의해 주십시오. 이 같은 책임을 다하지 못하고 타인의 정보 및 존엄성을 훼손할 시에는 ‘정보통신망이용 촉진 및 정보 보호 등에 관한 법률’ 등에 의해 처벌받을 수 있습니다.</p>
+<br>
+<p>2. 온라인상에서(게시판, 채팅 등) 이용자가 자발적으로 제공하는 개인정보는 타인이 수집하여 사용할 수 있음을 유의하시기 바랍니다. 온라인상에서 개인정보를 게재하는 경우, 원치 않는 메시지를 받게 될 수도 있습니다.</p>
+<br>
+<br>
+<br>
+<p><b>8조 쿠키의 운용</b></p>
+<br>
+<p>1. 쿠키의 정의 <br>
+쿠키는 웹사이트가 고객의 컴퓨터 브라우저(인터넷 익스플로러, 크롬 등)에 전송하는 소량의 정보입니다.
+</p>
+<br>
+<p>2. 쿠키 사용 목적 
+<ul>
+    <li>① 회원의 관심 분야와 취향 파악 </li>
+    <li>② 이용자의 접속빈도나 방문시간 분석 </li>
+    <li>③ 쇼핑 정보와 관심 상품 파악을 통해 개인 맞춤 서비스 제공 </li>
+</ul>
+</p>
+<br>
+<p>3. 쿠키의 설치, 운영과 거부 
+<ul>
+    <li>① 이용자는 쿠키에 대한 선택권을 가지고 있습니다</li>
+    <li>② 브라우저의 도구 > 인터넷옵션 에서 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다 확인을 거치거나 , 모든 쿠키의 저장을 거부할 수 있습니다. </li>
+    <li>③ 이용자가 쿠키를 거부할 경우 로그인이 필요한 일부 서비스 이용에 어려움이 있을 수 있습니다.</li>
+</ul>
+</p>
+<br>
+<br>
+<br>
+<p><b>9조 링크사이트 </b></p>
+<p>원더플레이스는 이용자에게 다른 회사의 웹사이트 또는 자료에 대한 링크를 제공할 수 있습니다. 이 경우 원더플레이스는 외부 사이트 및 자료에 대한 아무런 통제권이 없으므로 그로부터 제공받는 서비스나 자료의 유용성에 대해 책임질 수 없으며 보증할 수 없습니다. 원더플레이스 서비스 내 링크를 클릭(Click) 하여 타 사이트(Site)의 페이지로 옮겨갈 경우, 해당 사이트의 개인정보처리방침은 원더플레이스와 무관하므로 새로 방문한 사이트의 정책을 검토해 보시기 바랍니다.</p>
+<br>
+<br>
+<br>
+<p><b>10조 게시물 </b></p>
+<p>1. 원더플레이스는 이용자의 게시물을 소중하게 생각하여 변조, 훼손, 삭제되지 않도록 최선을 다하여 보호합니다.</p>
+<br>
+<p>2. 회원의 게시물 등이 관련 법령에 위반되는 내용을 포함하거나 이용약관에 근거하여 서비스 내에 게시된 게시물이 사생활 침해 또는 명예훼손 등 타인의 권리를 침해한다고 인정하는 경우 회사는 해당 관련 법령이나 적법한 권리자의 요청에 따라 해당 게시물 등에 대한 게시중단 및 삭제 등의 조치를 취할 수 있습니다. </p>
+<br>
+<p>3. 동의 없는 타인의 신상 공개 시 원더플레이스는 게시물을 수정하여 게시할 수 있습니다. </p>
+<br>
+<p>4. 다른 게시판으로 게시물 이동 시 해당 게시물에 이동 경로를 밝혀 오해가 없도록 하고 있습니다.</p>
+<br>
+<br>
+<br>
+<p><b>11조 스마트폰 앱</b></p>
+<p>스마트폰 앱을 통해 서비스 이용 시, 이용자에게 개인정보 수집·이용 동의를 받은 범위 내에서 단말기 정보 등에 접근한다는 것을 고지하고 승인을 획득한 후 정보가 수집되거나 전송됩니다. </p>
+<br>
+<p>앱 상에서 이용자가 단말기 접근 권한을 허용하였다고 하여 허용 권한과 관련된 모든 정보가 즉시 수집되거나 전송되는 것은 아닙니다. 서비스 제공을 위하여 스마트폰 앱의 접근 권한을 필수 또는 선택적으로 이용자에게 요청하고 있으며, 단말기 내 "설정" 메뉴를 통하여 이용자가 직접 권한을 변경할 수 있습니다. </p>
+
+<br>
+<br>
+<br>
+<p><b>12조 개인정보 보호 책임자</b></p>
+<br>
+<p>원더플레이스는 개인정보 처리에 관한 업무를 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.</p>
+<br>
+<p>개인정보 보호책임자
+    <ul class="list_type_dash">
+        <li style="color: #000;">성명 : 손인호</li>
+        <li style="color: #000;">직책 : 인사총무부 이사</li>
+        <li style="color: #000;">전화번호 : 1668-3508</li>
+        <li style="color: #000;">이메일 : cs@wonderplace.co.kr</li>
+    </ul>
+</p>
+<br>
+<p>민원 처리센터
+    <ul class="list_type_dash">
+        <li style="color: #000;">이메일 : cs@wonderplace.co.kr</li>
+        <li style="color: #000;">전화번호 : 1668-3508</li>
+    </ul>
+</p>
+<br>
+<br>
+<br>
+<p><b>13조 개인정보의 안전성 확보조치</b></p>
+<br>
+<p>원더플레이스는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.</p>
+<p>
+    <ul>
+        <li>1. 관리적 조치 : 내부관리계획 수립ㆍ시행, 정기적 직원 교육 등</li>
+        <li>2. 기술적 조치 : 개인정보처리시스템 등의 접근권한 관리, 접근통제시스템 설치, 고유식별정보 등의 암호화, 보안프로그램 설치</li>
+    </ul>
+</p>
+
+<br>
+<br>
+<br>
+<p><b>14조 개인정보 침해에 대한 신고 또는 상담 </b></p>
+<br>
+<table style="border:1px solid #707070;">
+    <colgroup>
+        <col style="width: 20%">
+        <col style="width: 80%">
+    </colgroup>
+    <tbody>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>개인정보침해 신고센터</td>
+            <td>국번없이 118<br>
+                <a href="https://privacy.kisa.or.kr/main.do" target="_blank">http://privacy.kisa.or.kr</a><br>
+            118@kisa.or.kr 
+            </td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>대검찰청 사이버수사과</td>
+            <td>국번없이 1301<br>
+            <a href="https://www.spo.go.kr/site/spo/main.do" target="_blank">http://www.spo.go.kr </a>
+            </td>
+        </tr>
+        <tr style="border-bottom:1px solid #707070;">
+            <td>경찰청 사이버안전국</td>
+            <td>국번없이 182<br>
+            <a href="https://cyberbureau.police.go.kr" target="_blank">http://cyberbureau.police.go.kr</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+<br>
+<p><b>18조 (정책변경에 따른 공지의무)</b></p>
+<br>
+<p>개인정보처리방침은 2020년 10월 20일부터 적용됩니다. 내용의 추가, 삭제 및 수정이 있을 시에는 개정 최소 7일전부터 홈페이지의 공지사항을 통하여 고지할 것입니다. </p>
+<br>
+<p>개인정보처리방침 시행일자 : 2020년 10월 20일</p>
+
+
+
+
+
+
+
+
+ 
+
+
+                </div>
+
+                <div class="sel_box mt40">
+                        <select required="">
+                            <option value="" disabled="" selected="" hidden="">개인정보보호정책 : 2020.06.19 시행</option>
+                            <option>개인정보보호정책 : 2020.07.19 시행</option>
+                            <option>개인정보보호정책 : 2020.08.19 시행</option>
+                            <option>개인정보보호정책 : 2020.09.19 시행</option>
+                            <option>개인정보보호정책 : 2020.10.19 시행</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //이용 약관 팝업 -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    var prdImgSwiper = new Swiper(".prd_imgs",{
+        loop: true,
+        slidesPerView: 'auto',
+        spaceBetween: 5,
+        centeredSlides: true,
+    });
+
+    prdImgSwiper.on('transitionStart', function () {
+        var activeSwpIdx = $('.swiper-slide-active').data('swiper-slide-index');
+        var txt = $('.txt_slide_wrap .txt_box');
+
+        txt.removeClass('active');
+        txt.eq(activeSwpIdx).addClass('active');
+    });
+
+    var arrivalPrdSwiper = new Swiper(".limited_wrap",{
+        slidesPerView: 'auto',
+        spaceBetween: 5,
+        freeMode: false //[D] 200526 true > false
+    });
+    var thmbImgSwiper = new Swiper(".mod_img_slide",{
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+});
+</script>
+</body>
+</html>

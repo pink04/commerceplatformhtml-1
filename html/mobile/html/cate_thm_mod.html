@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/category.css">
+</head>
+<body>
+<main id="wrap">
+	<!-- header -->
+	<header>
+		header
+	</header>
+	<!-- //header -->
+
+	<!-- content -->
+	<div id="content">
+		<div class="cate_wrap">
+			<div class="brand_thm_wrap">
+				<!-- module : 브랜드 썸네일 리스트 -->
+				<ul class="mod_thm_list02 nth03 swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box">
+								<img src="../image/temp/img_thm.png" alt="" style="background-image: url(http://m.dev.wonderplace.co.kr/cdn/rest/images/contents/brand/461/brand_461_1580811670505.png);"/> <!-- [D] 200421 수정 -->
+							</span>
+							<span class="name_box">GUESS</span>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box"><img src="../image/temp/img_thm.png" alt="" style="background-image: url(http://m.dev.wonderplace.co.kr/cdn/rest/images/contents/brand/1/brand_1_1585634532451.PNG);"/></span>
+							<span class="name_box">NIKE</span>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box"><img src="../image/temp/img_thm.png" alt="" style="background-image: url(http://m.dev.wonderplace.co.kr/cdn/rest/images/contents/brand/456/brand_456_1580811877448.png);"/></span>
+							<span class="name_box">LE COQ SPORTIf</span>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box"><img src="../image/temp/thm_brand01.png" alt="" /></span>
+							<span class="name_box">ADIDAS ORIGINALS</span>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box"><img src="../image/temp/thm_brand02.png" alt="" /></span>
+							<span class="name_box">FILA</span>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="javascript:;">
+							<span class="thm_box"><img src="../image/temp/thm_brand03.png" alt="" /></span>
+							<span class="name_box">CONVERSE ALLSTAR</span>
+						</a>
+					</li>
+				</ul>
+				<div class="swiper-pagination"></div>
+				<!-- //module : 브랜드 썸네일 리스트 -->
+			</div>
+		</div>
+	</div>
+	<!-- //content -->
+
+	<!-- footer -->
+	<footer>
+		footer
+	</footer>
+	<!-- //footer -->
+</main>
+
+<!-- layer popup -->
+
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var brandThmSwiper = new Swiper(".brand_thm_wrap",{
+		slidesPerView:3,
+		slidesPerGroup:3,
+		loopFillGroupWithBlank: true,
+	  spaceBetween: 15,
+		pagination:{
+			el:".brand_thm_wrap .swiper-pagination",
+			clickable:true,
+			renderBullet:function(index,className){
+	      return '<span class="'+className+' prd_bullet"></span>';
+	    }
+		}
+	});
+});
+</script>
+</body>
+</html>

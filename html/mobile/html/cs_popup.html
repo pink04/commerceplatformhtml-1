@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>WONDER PLACE</title>
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/16x16.png">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/customer.css">
+	<style type="text/css">
+	.popup_sample_title{padding:20px;color:#fff;background:#555;}
+	.popup_sample_list{padding:20px;}
+	.popup_sample_list li{padding:10px 0;}
+	.popup_sample_list li a{font-size:16px;text-decoration:underline;}
+	</style>
+</head>
+<body>
+<main id="wrap">
+
+	<!-- content -->
+	<div id="content">
+		<h2 class="popup_sample_title">고객센터 레이어 팝업 리스트</h2>
+		<ul class="popup_sample_list">
+			<li><a href="javascript:;" class="pop_open" data-target="#popQnaTerm">1:1문의 > 기간설정</a></li>
+		</ul>
+	</div>
+	<!-- //content -->
+
+</main>
+
+<!-- layer popup -->
+<div class="layer_pop_wrap" id="popQnaTerm" style="display:none;">
+	<div class="pop_inner">
+		<div class="pop_wrap">
+			<a href="javascript:;" class="btn_close pop_close">팝업닫기</a>
+			<div class="tit_box">
+				<h2>기간설정</h2>
+			</div>
+			<div class="con_box">
+				<dl>
+					<dt>조회기간<p class="posTR">2020.05.02 ~ 2020.06.02 (1개월)</p></dt>
+					<dd>
+						<ul class="tab_btns nth04">
+							<li><a href="javascript:;">1개월</a></li>
+							<li><a href="javascript:;">3개월</a></li>
+							<li><a href="javascript:;">6개월</a></li>
+							<li><a href="javascript:;">12개월</a></li>
+						</ul>
+					</dd>
+					<dd>
+						<div class="set_term_box">
+							<div class="input_box with_btn">
+								<input type="text" name="" value="2020-05-02" placeholder="" />
+								<a href="javascript:;" class="btn btn_schedule">날짜검색</a>
+							</div>
+							<i>~</i>
+							<div class="input_box with_btn">
+								<input type="text" name="" value="2020-06-02" placeholder="" />
+								<a href="javascript:;" class="btn btn_schedule">날짜검색</a>
+							</div>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>답변상태</dt>
+					<dd>
+						<ul class="tab_btns nth03">
+							<li class="active"><a href="javascript:;">전체</a></li>
+							<li><a href="javascript:;">답변완료</a></li>
+							<li><a href="javascript:;">미답변</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<div class="btn_wrap no_pad">
+				<button type="button" class="btn btn_black03 pop_close">문의하기</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //layer popup -->
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/swiper.min.js"></script><!-- https://swiperjs.com/ -->
+<script src="../js/iscroll.js"></script>
+<script src="../js/ui.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+</html>
