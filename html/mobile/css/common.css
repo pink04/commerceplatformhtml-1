@@ -114,7 +114,7 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 /** layout **/
 #wrap{overflow:hidden;position:relative;min-height:100%;max-width: 640px;margin: 0 auto}
 #header{position:relative;background:#fff;}
-#header > .inner{position:relative;width:100%;min-height:50px;background:#fff;}
+#header > .inner{position:relative;width:100%;min-height:52px;background:#fff;}
 #header.type_prd_detail{}
 #header.type_prd_detail > .inner.ver01{position:fixed;top:0;left:0;right: 0;z-index:200;height:50px;max-width: 640px;margin:0 auto;background:#fff;transform:translateY(-100%);}
 #header.type_prd_detail > .inner.ver02{position:absolute;top:0;left:0;z-index:200;height:98px;background:transparent url(../image/bg_detail_header.png) repeat-x center top;background-size:auto 98px;transform:translateY(0%);}
@@ -123,40 +123,40 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header.type_brand > .inner a.btn_wish{width:23px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_wish_white.png) no-repeat center center;background-size:auto 21px;}
 #header.type_brand > .inner a.btn_wish.active{background:url(../image/ico_wish_on.png) no-repeat center center;background-size:auto 21px;}
 #header > .inner.bd_b{border-bottom:1px solid #ebebeb;}
-#header > .inner h1{padding:0 100px;text-align:center;font-size:16px;font-weight:500;line-height:50px;color:#1f1f1f;}
+#header > .inner h1{padding:0 100px;text-align:center;font-size:16px;font-weight:500;line-height:52px;color:#1f1f1f;}
 #header > .inner h1.type_gray{color:#fff;background:#555;}
 #header > .inner h1 img{width:auto;height:50px;vertical-align:top;}
 #header > .inner h1 .btn_sel{position: relative;display:inline-block;overflow: hidden;max-width:100%;height:50px;vertical-align:top;white-space: nowrap;text-overflow:ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;}
 #header > .inner h1 .btn_sel:after{content:"";position: absolute;right: 0;top: 48%;display:inline-block;width:0;height:0;margin-left:5px;border-top:4px solid #1f1f1f;border-left:3px solid transparent;border-right:3px solid transparent;vertical-align:middle;}
-#header > .inner > .l_box{position:absolute;top:0;left:0;z-index:201;height:50px;text-align:left;font-size:0;}
-#header > .inner > .r_box{position:absolute;top:0;right:0;z-index:201;height:50px;text-align:right;font-size:0;}
+#header > .inner > .l_box{position:absolute;top:0;left:0;z-index:201;height:52px;text-align:left;font-size:0;}
+#header > .inner > .r_box{position:absolute;top:0;right:0;z-index:201;height:52px;text-align:right;font-size:0;}
 #header > .inner > .l_box.type02{left:7px;}
 #header > .inner > .r_box.type02{right:7px;}
-#header > .inner > .l_box.type02 a{padding:0 8px;}
-#header > .inner > .r_box.type02 a{padding:0 8px;}
+#header > .inner > .l_box.type02 a{padding:0 9px;}
+#header > .inner > .r_box.type02 a{padding:0 9px;}
 #header > .inner .search_box{position:relative;padding:3px 43px 3px 38px; background-color: #f9f9f9;}
 #header > .inner .search_box input{padding-right:46px;border:none;font-size:16px;color:#1f1f1f;background:#f9f9f9;}
 #header > .inner .search_box .btn_input_del{right:0;padding:15px;margin-top:-23px;}
 #header > .inner .search_box a.btn_sch{position:absolute;top:0;right:0;z-index:1;padding:0 11px;}
 #header > .inner a{display:inline-block;position:relative;padding:0 12px;box-sizing:content-box;vertical-align:top;}
-#header > .inner a .badge{display:inline-block;position:absolute;top:12px;left:4px;width:16px;height:16px;background-color:#f00;border-radius:50%;font-size:9px;font-weight:600;color:#fff;text-align:center;line-height:16px;text-indent:0;}
+#header > .inner a .badge{display:inline-block;position:absolute;top:10px;left:4px;width:16px;height:16px;background-color:#f00;border-radius:50%;font-size:9px;font-weight:600;color:#fff;text-align:center;line-height:16px;text-indent:0;}
 #header > .inner .r_box.type02 a .badge{left:0;}
-#header > .inner a.btn_back{width:8px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_back.png) no-repeat center center;background-size:auto 15px;}
-#header > .inner a.btn_back_white{width:8px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_back_white.png) no-repeat center center;background-size:auto 15px;}
-#header > .inner a.btn_menu{width:19px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_menu.png) no-repeat center center;background-size:auto 18px;}
-#header > .inner a.btn_close{width:17px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_close.png) no-repeat center center;background-size:17px;}
-#header > .inner a.btn_cart{width:18px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_cart.png) no-repeat center center;background-size:auto 22px;}
-#header > .inner a.btn_cart_white{width:18px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_cart_white.png) no-repeat center center;background-size:auto 22px;}
-#header > .inner a.btn_alarm{width:18px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_alarm.png) no-repeat center center;background-size:auto 22px;}
-#header > .inner a.btn_wish{width:23px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_wish_black.png) no-repeat center center;background-size:auto 21px;}
+#header > .inner a.btn_back{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back.png) no-repeat center center;background-size:auto 15px;}
+#header > .inner a.btn_back_white{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back_white.png) no-repeat center center;background-size:auto 15px;}
+#header > .inner a.btn_menu{width:19px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_menu.png) no-repeat center center;background-size:auto 18px;}
+#header > .inner a.btn_close{width:17px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_close.png) no-repeat center center;background-size:17px;}
+#header > .inner a.btn_cart{width:18px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_cart.png) no-repeat center center;background-size:auto 22px;}
+#header > .inner a.btn_cart_white{width:18px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_cart_white.png) no-repeat center center;background-size:auto 22px;}
+#header > .inner a.btn_alarm{width:18px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_alarm.png) no-repeat center center;background-size:auto 22px;}
+#header > .inner a.btn_wish{width:23px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_wish_black.png) no-repeat center center;background-size:auto 21px;}
 #header > .inner a.btn_wish.active{background:url(../image/ico_wish_on.png) no-repeat center center;background-size:auto 20px;}
-#header > .inner a.btn_wish_white{width:23px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_wish_white.png) no-repeat center center;background-size:auto 21px;}
+#header > .inner a.btn_wish_white{width:23px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_wish_white.png) no-repeat center center;background-size:auto 21px;}
 #header > .inner a.btn_wish_white.active{background:url(../image/ico_wish42_on.png) no-repeat center center;background-size:auto 21px;}
-#header > .inner a.btn_sch{width:21px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_sch.png) no-repeat center center;background-size:auto 21px;}
-#header > .inner a.btn_sch_white{width:21px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_sch_white.png) no-repeat center center;background-size:auto 21px;}
-#header > .inner a.btn_wpbox{width:23px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_wpbox.png) no-repeat center 16px;background-size:auto 20px;}
-#header > .inner a.btn_home_white{width:20px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_home_w.png) no-repeat center center;background-size:auto 20px; padding-left: 0;}
-#header > .inner a.btn_home{width:20px;height:50px;text-indent:-9999px;font-size:0;background:url(../image/ico_home.png) no-repeat center center;background-size:auto 20px; padding-left:0px;}
+#header > .inner a.btn_sch{width:21px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_sch.png) no-repeat center center;background-size:auto 21px;}
+#header > .inner a.btn_sch_white{width:21px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_sch_white.png) no-repeat center center;background-size:auto 21px;}
+#header > .inner a.btn_wpbox{width:23px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_wpbox.png) no-repeat center 16px;background-size:auto 20px;}
+#header > .inner a.btn_home_white{width:20px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_home_white.png) no-repeat center center;background-size:auto 20px; padding-left: 0;}
+#header > .inner a.btn_home{width:20px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_home.png) no-repeat center center;background-size:auto 20px; padding-left:0px;}
 #footer{position:relative;padding:9px 0 76px;background:#141414;}
 #footer .inner{padding:30px 15px;}
 #footer .logo_f{text-align:left;font-size:0;}
