@@ -131,7 +131,7 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header > .inner > .l_box{position:absolute;top:0;left:0;z-index:201;height:52px;text-align:left;font-size:0;}
 #header > .inner > .r_box{position:absolute;top:0;right:0;z-index:201;height:52px;text-align:right;font-size:0;}
 #header > .inner > .l_box.type02{left:7px;}
-#header > .inner > .r_box.type02{right:7px;}
+#header > .inner > .r_box.type02{right:10px;}
 #header > .inner > .l_box.type02 a{padding:0 9px;}
 #header > .inner > .r_box.type02 a{padding:0 9px;}
 #header > .inner .search_box{position:relative;padding:3px 43px 3px 38px; background-color: #f9f9f9;}
