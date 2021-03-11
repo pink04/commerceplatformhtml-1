@@ -138,11 +138,11 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header > .inner .search_box input{padding-right:46px;border:none;font-size:16px;color:#1f1f1f;background:#f9f9f9;}
 #header > .inner .search_box .btn_input_del{right:0;padding:15px;margin-top:-23px;}
 #header > .inner .search_box a.btn_sch{position:absolute;top:0;right:0;z-index:1;padding:0 11px;}
-#header > .inner a{display:inline-block;position:relative;padding:0 12px;box-sizing:content-box;vertical-align:top;}
+#header > .inner a{display:inline-block;position:relative;padding:0 20px;box-sizing:content-box;vertical-align:top;}
 #header > .inner a .badge{display:inline-block;position:absolute;top:10px;left:4px;width:16px;height:16px;background-color:#f00;border-radius:50%;font-size:9px;font-weight:600;color:#fff;text-align:center;line-height:16px;text-indent:0;}
 #header > .inner .r_box.type02 a .badge{left:0;}
-#header > .inner a.btn_back{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back.png) no-repeat center center;background-size:auto 15px;}
-#header > .inner a.btn_back_white{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back_white.png) no-repeat center center;background-size:auto 15px;}
+#header > .inner a.btn_back{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back.png) no-repeat center center;background-size:auto 16px;}
+#header > .inner a.btn_back_white{width:8px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_back_white.png) no-repeat center center;background-size:auto 16px;}
 #header > .inner a.btn_menu{width:19px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_menu.png) no-repeat center center;background-size:auto 18px;}
 #header > .inner a.btn_close{width:17px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_close.png) no-repeat center center;background-size:17px;}
 #header > .inner a.btn_cart{width:18px;height:52px;text-indent:-9999px;font-size:0;background:url(../image/ico_cart.png) no-repeat center center;background-size:auto 22px;}
