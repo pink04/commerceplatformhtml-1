@@ -49,7 +49,9 @@
 .prd_detail .list_type_dash li{overflow:visible;}
 .prd_detail .deal_tag{vertical-align: middle;}
 .prd_detail .deal_tag .btn_tip{vertical-align: middle;}
+.prd_detail .bnr_benefit{position:relative; overflow:hidden; margin-top:10px;}
 
+.prd_detail .bnr_benefit .swiper-button-prev:after, .prd_detail .bnr_benefit .swiper-button-next:after {font-size:1rem; }
 .btn_tip.posTR{right:27px;}
 .btn_tip .txt{word-break:break-all;}
 .btn_tip .txt.ty01{left:-124px;}
