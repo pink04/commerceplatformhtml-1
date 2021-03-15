@@ -6,7 +6,8 @@
 .prd_detail .prd_detail_review{padding:0 15px;}
 .prd_detail .parallax_wrap01{position:relative;height:100%;background:#fff; max-height: 840px;}
 .prd_detail .parallax_wrap01 .mod_prd_visual{overflow:hidden;height:100%;}
-.prd_detail .parallax_wrap01 .mod_prd_visual .swiper-pagination{bottom:28px;}
+.prd_detail .parallax_wrap01 .mod_prd_visual .swiper-pagination{bottom: 18px; left: 18px; width: 47px; height:25px; line-height: 25px; color:#fff;  font-size: 13px;}
+.prd_detail .parallax_wrap01 .mod_prd_visual .swiper-pagination::before {content:''; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius: 14px;background:#000; opacity: 0.5; z-index: -1;}
 .mod_prd_visual .prd_imgs ul li img{ max-height: 840px; }
 .prd_detail .parallax_wrap02{position:relative;background:#fff;}
 .prd_detail table.prd_tbl_type01{border-bottom:1px solid #555;}

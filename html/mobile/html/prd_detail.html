@@ -71,7 +71,15 @@
 				<!-- module : 상품 정보 및 가격 -->
 				<div class="mod_prd_info">
 					<div class="inner">
-						<p class="info_txt01"><span>아웃도어프로덕츠</span><span>OUTDOOR PRODUCTS</span></p>
+
+						<div class="info_box">
+							<p>
+								<strong>아웃도어프로덕츠</strong>
+								<span>OUTDOOR PRODUTCS</span>
+							</p>
+							<a href="javascript:;" class="btn_brand_logo"><img src="../image/temp/temp_brand_logo01.png" alt="outdoor products" /></a>
+						</div>
+
 						<p class="info_txt02">MONTEREY 2WAY SHOULDER 몬트리 투웨이 숄더 MONTEREY 2WAY SHOULDER 몬트리 투웨이 숄더</p>
 						<!-- <ul class="info_list">
 							<li>
@@ -171,6 +179,12 @@
 				<div class="bline"></div>
 				<!-- module : 혜택 및 배송정보 -->
 				<div class="mod_prd_info02">
+					<dl>
+						<dt>상품코드</dt>
+						<dd>
+							WO136OWMMZ01
+						</dd>
+					</dl>
 					<dl class="info02_benefit">
 						<dt>구매혜택</dt>
 						<dd>
@@ -186,7 +200,6 @@
 						<dt>상품/배송정보</dt>
 						<dd>
 							<ul class="list_type_dash">
-								<li>상품코드 : 4761674</li>
 								<li>
 									50,000원 이상 구매시 무료배송
 									<a href="javascript:;" class="btn_tip">
@@ -255,9 +268,8 @@
 					<div class="tab_menu pos_fixed">
 						<ul class="fix_el">
 							<li class="active"><a href="javascript:;">상세정보</a></li>
-							<li><a href="javascript:;">배송/교환/반품</a></li>
-							<li><a href="javascript:;">상품문의<span>(7)</span></a></li>
-							<li><a href="javascript:;">상품평<span>(27)</span></a></li>
+							<li><a href="javascript:;">상품평<span>(7)</span></a></li>
+							<li><a href="javascript:;">문의<span>(27)</span></a></li>
 						</ul>
 					</div>
 					<div class="tab_cont">
@@ -356,53 +368,101 @@
 								</div>
 								<!-- //[D] 200427 마크업 변경 -->
 								<div class="bline mt50"></div>
-								<h3 style="padding:50px 15px 0;">정보고시 안내</h3>
-								<div class="inner">
-									<table class="prd_tbl_type02 mt10" cellpadding="0" cellspacig="0" border="0">
-										<colgroup>
-											<col style="width:125px;" />
-											<col />
-										</colgroup>
-										<tbody>
-											<tr>
-												<th>총길이</th>
-												<td>19'NEW 여성 야상 롱다운자켓 (하이라인)</td>
-											</tr>
-											<tr>
-												<th>색상</th>
-												<td>BLACK, BEIGE, RED</td>
-											</tr>
-											<tr>
-												<th>제품 소재</th>
-												<td>겉감 : 면 80%+나일론 20%</td>
-											</tr>
-											<tr>
-												<th>제조사</th>
-												<td>원더플레이스</td>
-											</tr>
-											<tr>
-												<th>제조국</th>
-												<td>베트남</td>
-											</tr>
-											<tr>
-												<th>세탁방법 및 취급시 주의사항</th>
-												<td>염소,산소계 표백제로 표백할 수 없다. 물의 온도 30˚c를 표준으로 약하게 손세탁을 할 수 있다(세탁기 사용 불가) 세제의 종류는 중성세제를 사용한다. 세탁 후 건조할 때 기계건조를 할 수 없다. 그늘에 뉘어서 건조한다.</td>
-											</tr>
-											<!-- [D] 200323 인증정보 추가 -->
-											<tr>
-												<th>
-													<div class="img_wrap">
-														<img src="../image/logo_kc.png" class="logo_kc" alt="KC인증마크">
-													</div>
-													어린이 용품<br>인증정보
-												</th>
-												<td>안전인증번호<br>N31224554-4001</td>
-											</tr>
-											<!-- //[D] 200323 인증정보 추가 -->
-										</tbody>
-									</table>
+								<!-- 배송/교환/반품정보-->
+								<div class="togg_wrap">
+									<h3 class="tit_box bar"><span>배송/교환/반품 정보</span><a href="javascript:;" class="togg_btn"></a></h3>
+									<div class="togg_con">
+										<h4 class="mt0">배송안내</h4>
+										<dl>
+											<dt>배송기간 (물류센터)</dt>
+											<dd>본 상품은 오프라인 매장과 동시에 판매하는 상품이므로, 주문 접수 및 상품 준비 도중 판매가 증가하여 발송지연 또는 품절 될 수 있으니 양해 부탁드립니다. 배송이 지연되는 경우 고객님께 빠르게 안내 할 수 있도록 노력하겠습니다.</dd>
+										</dl>
+										<dl>
+											<dt>[물류센터배송]</dt>
+											<dd>결제 완료 후 평균 3~5일 (휴일 및 공휴일 제외) 이내에 배송됩니다. 물류센터 내 상품 부족시, 상품이 있는 타 매장에서 받아 배송하므로 평균 배송일 보다 1~2일이 지연될 수 있습니다.</dd>
+										</dl>
+										<dl>
+											<dt>배송지역</dt>
+											<dd>
+												<ul class="list_type_dash">
+													<li>전국 배송가능 (제주도나 기타 도서지방은 별도의 요금이 부과됩니다.)</li>
+													<li>편의점 픽업가능 상품에 한하여 주문시 배송주소에 원하시는 GS25 편의점을 선택하여 수령 가능하며 상품 도착시 문자로 안내해 드립니다. (편의점 픽업상품은 배송 완료 후 6일 이내 수령해야 하며, 기간 내 미수령 시 배송비 고객 부담으로 반품 처리됩니다. 이점 유의 바랍니다.)</li>
+												</ul>
+											</dd>
+										</dl>
+										<dl>
+											<dt>배송비</dt>
+											<dd>
+												<ul class="list_type_dash">
+													<li>회원구매시 배송비는 2500원 (3만원 이상 무료) 도서, 산간, 오지 일부 지역은 배송비가 추가됩니다.</li>
+												</ul>
+											</dd>
+										</dl>
+										<h4>교환/반품 안내</h4>
+										<dl>
+											<dt>교환/반품시 주의사항</dt>
+											<dd>
+												<ul class="list_type_dash">
+													<li>교환 및 반품은 제품 수령 후 7일이내 가능합니다.</li>
+													<li>상품은 착용한 흔적이 있거나, 상품 Tag가 손상된 경우 교환/반품/환불이 불가능합니다. 교환 시 맞교환은 불가능하며, 상품 입고 후 교환을 원하시는 제품으로 배송해드립니다.</li>
+													<li>교환 및 반품내역이 접수되지 않거나 지정된 반송처로 반송되지 않을 시 교환/반품/환불 절차가 지연되니 양해부탁드립니다.</li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
 								</div>
-								<div class="bline mt50"></div>
+								<!-- //배송/교환/반품정보-->
+								<!-- 정보고시안내-->
+								<div class="togg_wrap">
+									<h3 class="tit_box bar"><span>정보고시 안내</span><a href="javascript:;" class="togg_btn"></a></h3>
+									<div class="togg_con bg_white">
+										<table class="prd_tbl_type02 mt10" cellpadding="0" cellspacig="0" border="0">
+											<colgroup>
+												<col style="width:125px;" />
+												<col />
+											</colgroup>
+											<tbody>
+												<tr>
+													<th>총길이</th>
+													<td>19'NEW 여성 야상 롱다운자켓 (하이라인)</td>
+												</tr>
+												<tr>
+													<th>색상</th>
+													<td>BLACK, BEIGE, RED</td>
+												</tr>
+												<tr>
+													<th>제품 소재</th>
+													<td>겉감 : 면 80%+나일론 20%</td>
+												</tr>
+												<tr>
+													<th>제조사</th>
+													<td>원더플레이스</td>
+												</tr>
+												<tr>
+													<th>제조국</th>
+													<td>베트남</td>
+												</tr>
+												<tr>
+													<th>세탁방법 및 취급시 주의사항</th>
+													<td>염소,산소계 표백제로 표백할 수 없다. 물의 온도 30˚c를 표준으로 약하게 손세탁을 할 수 있다(세탁기 사용 불가) 세제의 종류는 중성세제를 사용한다. 세탁 후 건조할 때 기계건조를 할 수 없다. 그늘에 뉘어서 건조한다.</td>
+												</tr>
+												<!-- [D] 200323 인증정보 추가 -->
+												<tr>
+													<th>
+														<div class="img_wrap">
+															<img src="../image/logo_kc.png" class="logo_kc" alt="KC인증마크">
+														</div>
+														어린이 용품<br>인증정보
+													</th>
+													<td>안전인증번호<br>N31224554-4001</td>
+												</tr>
+												<!-- //[D] 200323 인증정보 추가 -->
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- //정보고시안내-->
+								<!--- 판매자정보-->
 								<div class="togg_wrap">
 									<h3 class="tit_box"><span>판매자 정보</span><a href="javascript:;" class="togg_btn"></a></h3>
 									<div class="togg_con bg_white">
@@ -440,51 +500,8 @@
 										</table>
 									</div>
 								</div>
+								<!--- //판매자정보-->
 								<div class="bline"></div>
-							</div>
-						</div>
-						<div id="cont02" class="cons">
-							<div class="togg_wrap">
-								<h3 class="tit_box"><span>배송/교환/반품 정보</span><a href="javascript:;" class="togg_btn active"></a></h3>
-								<div class="togg_con active">
-									<h4 class="mt0">배송안내</h4>
-									<dl>
-										<dt>배송기간 (물류센터)</dt>
-										<dd>본 상품은 오프라인 매장과 동시에 판매하는 상품이므로, 주문 접수 및 상품 준비 도중 판매가 증가하여 발송지연 또는 품절 될 수 있으니 양해 부탁드립니다. 배송이 지연되는 경우 고객님께 빠르게 안내 할 수 있도록 노력하겠습니다.</dd>
-									</dl>
-									<dl>
-										<dt>[물류센터배송]</dt>
-										<dd>결제 완료 후 평균 3~5일 (휴일 및 공휴일 제외) 이내에 배송됩니다. 물류센터 내 상품 부족시, 상품이 있는 타 매장에서 받아 배송하므로 평균 배송일 보다 1~2일이 지연될 수 있습니다.</dd>
-									</dl>
-									<dl>
-										<dt>배송지역</dt>
-										<dd>
-											<ul class="list_type_dash">
-												<li>전국 배송가능 (제주도나 기타 도서지방은 별도의 요금이 부과됩니다.)</li>
-												<li>편의점 픽업가능 상품에 한하여 주문시 배송주소에 원하시는 GS25 편의점을 선택하여 수령 가능하며 상품 도착시 문자로 안내해 드립니다. (편의점 픽업상품은 배송 완료 후 6일 이내 수령해야 하며, 기간 내 미수령 시 배송비 고객 부담으로 반품 처리됩니다. 이점 유의 바랍니다.)</li>
-											</ul>
-										</dd>
-									</dl>
-									<dl>
-										<dt>배송비</dt>
-										<dd>
-											<ul class="list_type_dash">
-												<li>회원구매시 배송비는 2500원 (3만원 이상 무료) 도서, 산간, 오지 일부 지역은 배송비가 추가됩니다.</li>
-											</ul>
-										</dd>
-									</dl>
-									<h4>교환/반품 안내</h4>
-									<dl>
-										<dt>교환/반품시 주의사항</dt>
-										<dd>
-											<ul class="list_type_dash">
-												<li>교환 및 반품은 제품 수령 후 7일이내 가능합니다.</li>
-												<li>상품은 착용한 흔적이 있거나, 상품 Tag가 손상된 경우 교환/반품/환불이 불가능합니다. 교환 시 맞교환은 불가능하며, 상품 입고 후 교환을 원하시는 제품으로 배송해드립니다.</li>
-												<li>교환 및 반품내역이 접수되지 않거나 지정된 반송처로 반송되지 않을 시 교환/반품/환불 절차가 지연되니 양해부탁드립니다.</li>
-											</ul>
-										</dd>
-									</dl>
-								</div>
 							</div>
 						</div>
 						<div id="cont03" class="cons">
@@ -964,13 +981,7 @@
 				<!-- module : 브랜드 별 상품 리스트 -->
 				<div class="mod_brand_wrap">
 					<div class="sect_brand">
-						<div class="info_box pb0"> <!-- [D] 200330 'pb0' 클래스 추가 -->
-							<p>
-								<strong>아웃도어프로덕츠</strong>
-								<span>OUTDOOR PRODUTCS</span>
-							</p>
-							<a href="javascript:;" class="btn_brand_logo"><img src="../image/temp/temp_brand_logo01.png" alt="outdoor products" /></a>
-						</div>
+						
 						<h3>함께 많이 본 상품</h3> <!-- [D] 200330 타이틀 추가 -->
 						<div class="brand_prd_list">
 							<ul class="mod_prd_list02 swiper-wrapper">
@@ -981,7 +992,6 @@
 											<li><img src="../image/flag_mdpick.png" alt="MD'S PICK" /></li>
 										</ul>
 									</div>
-									<p class="prd_brand">아웃도어프로덕츠</p>
 									<p class="prd_name">MONTEREY 2WAY SHOULDER 몬트리 투</p>
 									<div class="price_box">
 										<p>
@@ -1788,13 +1798,17 @@
 $(document).ready(function(){
 	var prdImgSwiper = new Swiper(".prd_imgs",{
 		loop:true,
-		pagination:{
-			el:".prd_imgs .swiper-pagination",
-			clickable:true,
-			renderBullet:function(index,className){
-	      return '<span class="'+className+' prd_bullet"></span>';
-	    }
+		pagination: {
+          el: ".swiper-pagination",
+          type: "fraction"
 		}
+		// pagination:{
+		// 	el:".prd_imgs .swiper-pagination",
+		// 	clickable:true,
+		// 	renderBullet:function(index,className){
+	    //   return '<span class="'+className+' prd_bullet"></span>';
+	    // }
+		
 	});
 	var brandPrdSwiper = new Swiper(".brand_prd_list",{
 		slidesPerView:"auto",
