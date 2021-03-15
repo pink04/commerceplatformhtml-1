@@ -20,6 +20,12 @@
 .prd_detail table.prd_tbl_type02 td{height:48px;padding:12px 0;border-bottom:1px solid #ebebeb;vertical-align:top;text-align:left;font-size:13px;line-height:20px;word-break:keep-all;color:#8c8c8c;}
 .prd_detail .fix_bottom_wrap{position:fixed;bottom:0;left:0;right: 0;z-index:200;width:100%;max-width: 640px;margin: 0 auto;background:#fff;transform:translateY(100%);-webkit-transform:translateY(100%);transition:all .3s ease-out;-webkit-transition:all .3s ease-out;}
 .prd_detail .fix_bottom_wrap .btn_wrap{padding:0;}
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn{display:flex; background:#343434}
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a {display:block;width:70px; height:70px;font-size: 0; text-indent: -9999px; }
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.wish { background: url(../image/ico_wish_w.png )no-repeat center center; background-size: auto 21px; border-right:1px solid #5d5d5d }
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.wish.active { background: url(../image/ico_wish_w_active.png) no-repeat center center; background-size: auto 21px;} 
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.share{ background: url(../image/ico_share_w.png) no-repeat center center; background-size: auto 21px;} 
+
 .prd_detail .fix_bottom_wrap.fixed{transform:translateY(0);-webkit-transform:translateY(0);}
 .prd_detail .reviews{}
 .prd_detail .reviews .summary_box{overflow:hidden;margin-top:20px;text-align:center;font-size:0;}
