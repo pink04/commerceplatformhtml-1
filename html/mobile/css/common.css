@@ -295,9 +295,9 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header.type_gnb{}
 #header.type_gnb > .inner{height:auto;transition:top .3s ease;right: 0;max-width: 640px;margin: 0 auto}
 #header.type_gnb > .inner.up{top:-50px;}
-#header.type_gnb > .inner h1{height:52px; padding:22px 0 6px;font-size:0;line-height:0;}
+#header.type_gnb > .inner h1{padding:30px 0 6px;font-size:0;line-height:0;}
 #header.type_gnb > .inner h1 .logo{width:182px;height:auto;vertical-align:top;}
-/* #header.type_gnb > .inner > .r_box{top:10px;} */
+#header.type_gnb > .inner > .r_box{top:10px;}
 .logo.type_app{position: absolute;top: 0;z-index: 10;width: 100%;text-align: center;line-height: 60px;}
 .logo.type_app img{width: 182px;vertical-align: middle;}
 #gnb .gnb_wrap{overflow:hidden;position:relative;height:58px;padding-top:10px;background-color:#fff;border-bottom:1px solid #f2f2f2;}
