@@ -430,7 +430,7 @@ var ui = {
 					fixWrap.addClass("fixed");
 				} else {
 					$(".parallax_wrap01 > div").css("transform", "translateY(" + winTop / 4 + "px)");
-					//	fixWrap.removeClass("fixed");
+				//	fixWrap.removeClass("fixed");
 				}
 				scrTop = winTop;
 				
