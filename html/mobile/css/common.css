@@ -1061,11 +1061,12 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_list03 li .prd_name{display:-webkit-box; overflow:hidden;max-height:34px;padding-right:100px;margin-top:3px;font-size:13px;font-weight:500;line-height:17px;word-break:break-all;color:#1f1f1f;text-overflow:ellipsis;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
 .mod_prd_list03 li .prd_opts{margin-top:4px;font-size:11px;line-height:16px;color:#1f1f1f;}
 .mod_prd_list03 li .prd_info_wrap{overflow:hidden;position:relative;min-height:70px;padding-left:90px;margin-top:7px;}
+.mod_prd_list03 li .prd_info_wrap .bottom_box + .btn_wrap {gap:5px}
 .mod_prd_list03 li .prd_img{position:absolute;top:0;left:0;z-index:1;width:70px;height:70px;}
 .mod_prd_list03 li .prd_img > img{width:70px;height:70px;object-fit:cover;-webkit-object-fit:cover;}
 .mod_prd_list03 li .prd_info_box{overflow:hidden;}
 .mod_prd_list03 li .prd_info_box .info_txt01{font-size:13px;font-weight:500;line-height:19px;color:#1ea23c;}
-.mod_prd_list03 li .prd_info_wrap .price_box{position:relative; text-align:right; margin-top:0;}
+.mod_prd_list03 li .prd_info_wrap .price_box{position:relative; float:right;text-align:right; margin-top:0;}
 .mod_prd_list03 li .prd_info_wrap .price_box > p{font-size:0;}
 .mod_prd_list03 li.soldeout .prd_info_wrap .price_box > p{font-size:0;}
 .mod_prd_list03 li .prd_info_wrap .price_box .price_org{position: absolute;top: -12px; right: 0;display:inline-block;vertical-align:top;font-size:12px;font-weight:500;line-height:15px;text-decoration:line-through;color:#8c8c8c;}
@@ -1078,7 +1079,6 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_list03 li .bottom_box{ padding-top: 20px;overflow:hidden;clear:both; margin-bottom:20px;}
 .mod_prd_list03 li .bottom_box .ea_box{float:left;}
 .mod_prd_list03 li .bottom_box .btn_wrap{float:right;}
-.mod_prd_list03 li .bottom_box + .btn_wrap .btn_red{margin-right:5px}
 .mod_prd_list03 li.soldout .prd_info_box{min-height:38px;}
 .mod_prd_list03 li.soldout .prd_info_wrap .price_box > p{padding-left:14px;margin-top:10px;font-size:12px;font-weight:500;text-align:left; background:url(../image/ico_soldout.png) no-repeat left center;background-size:11px;}
 .mod_prd_list03 li.soldout .bottom_box{margin-bottom:0;}
