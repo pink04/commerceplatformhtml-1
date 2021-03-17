@@ -85,8 +85,8 @@
 .mypage_wrap .mypage_main .sum_menu li a{ display:block;padding:30px 0;text-align:center;font-size:0;}
 .mypage_wrap .mypage_main .sum_menu li a strong{display:block;height:30px;vertical-align:baseline;font-size:24px;font-weight:600;line-height:30px;color:#1f1f1f;white-space: nowrap;}
 .mypage_wrap .mypage_main .sum_menu li a strong em{vertical-align:middle;}
-.mypage_wrap .mypage_main .sum_menu li a strong .my_wpbox{position:relative;display:block;height:100%;background:url(../image/ico_my_wpbox.png) no-repeat center -7px;}
-.mypage_wrap .mypage_main .sum_menu li.active a strong .my_wpbox:after {content:''; position:absolute; top:0; right:22px; display:inline-block; width:5px; height:5px; border-radius:50%;  background:#eb3b2a}
+.mypage_wrap .mypage_main .sum_menu li a strong .my_wpbox{position:relative;display:block; width:60px;height:100%; margin:0 auto; background:url(../image/ico_my_wpbox.png) no-repeat center -7px;}
+.mypage_wrap .mypage_main .sum_menu li.active a strong .my_wpbox:after {content:''; position:absolute; top:0; right:8px; display:inline-block; width:5px; height:5px; border-radius:50%;  background:#eb3b2a}
 .mypage_wrap .mypage_main .sum_menu li a span{display:block;font-size:14px;line-height:20px;color:#1f1f1f;}
 .mypage_wrap .mypage_main .order_history{padding-top:20px;}
 .mypage_wrap .mypage_main .order_history .history_box{padding:0;background:#fff;}
