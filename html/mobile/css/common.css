@@ -134,6 +134,7 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header > .inner > .r_box.type02{right:10px;}
 #header > .inner > .l_box.type02 a{padding:0 10px;}
 #header > .inner > .r_box.type02 a{padding:0 10px;}
+#header.type_gnb > .inner > .r_box {top:10px}
 #header > .inner .search_box{position:relative;padding:3px 43px 3px 38px; background-color: #f9f9f9;}
 #header > .inner .search_box input{padding-right:46px;border:none;font-size:16px;color:#1f1f1f;background:#f9f9f9;}
 #header > .inner .search_box .btn_input_del{right:0;padding:15px;margin-top:-23px;}
@@ -295,8 +296,8 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #header.type_gnb{}
 #header.type_gnb > .inner{height:auto;transition:top .3s ease;right: 0;max-width: 640px;margin: 0 auto}
 #header.type_gnb > .inner.up{top:-50px;}
-#header.type_gnb > .inner h1{height:52px; line-height:52px; font-size:0;}
-#header.type_gnb > .inner h1 .logo{width:182px;height:auto;vertical-align:middle;}
+#header.type_gnb > .inner h1{height:52px; line-height:52px; font-size:0; padding:30px 0 6px; box-sizing:border-box;}
+#header.type_gnb > .inner h1 .logo{width:182px;height:auto;vertical-align:top;}
 
 .logo.type_app{position: absolute;top: 0;z-index: 10;width: 100%;text-align: center;line-height: 60px;}
 .logo.type_app img{width: 182px;vertical-align: middle;}
