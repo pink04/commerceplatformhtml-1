@@ -324,7 +324,7 @@ dl.form_wrap02 .cate_select{float: left; margin-right: 20px;}
 #gnb .gnb_wrap ul li:nth-child(1).active a:after{display:none;}
 
 
-.snb_wrap{overflow:hidden;height:50px; border-bottom: 1px solid #f2f2f2; background:#fff;}
+.snb_wrap{overflow:hidden;height:50px; border-bottom: 1px solid #f2f2f2; background:#fff; box-sizing: content-box;}
 .snb_wrap.up{position:absolute;top:-50px;}
 .snb_wrap ul{overflow-x:auto;padding:14px 0 20px;text-align:left;font-size:0;white-space:nowrap;-webkit-overflow-scrolling:touch;}
 h3 + .snb_wrap.no_pad{margin-top:-20px;}
@@ -332,7 +332,7 @@ h3 + .snb_wrap.no_pad{margin-top:-20px;}
 .snb_wrap ul li{width:auto;vertical-align:top;text-align:center;}
 .snb_wrap ul li:first-child{padding-left:8px;}
 .snb_wrap ul li:last-child{padding-right:8px;}
-.snb_wrap ul li a{display:inline-block;padding:7px;vertical-align:top;font-size:13px;line-height:20px;color:#555;}
+.snb_wrap ul li a{display:inline-block;padding:0 10px;vertical-align:top;font-size:13px;line-height:20px;color:#555; }
 .snb_wrap ul li.active a{font-weight:500;color:#1f1f1f;}
 /* 브랜드샵GNB */
 #gnb.type_brand{}
