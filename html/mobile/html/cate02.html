@@ -36,8 +36,8 @@
 	<!-- content -->
 	<div id="content">
 		<!-- gnb -->
-		<div id="gnb">
-			<div class="snb_wrap">
+		<div id="gnb" class="pos_fixed fixed">
+			<div class="snb_wrap fix_el">
 				<ul class="swiper-wrapper">
 					<li class="swiper-slide active"><a href="javascript:;">전체</a></li>
 					<li class="swiper-slide"><a href="javascript:;">패딩</a></li>
@@ -807,7 +807,34 @@ $(document).ready(function(){
 		if (nowTop === 0) $('#header .snb_wrap').removeClass('up');
 		lastTop = nowTop;
 	});
-	/* //200416 스크립트 수정 */
+
+	//스크롤 이벤트
+	
+	var header = $("#header"),
+		nowScroll,
+		lastScroll = 0;
+	
+	function prdDetailHeader() {
+		var nowScroll = $(window).scrollTop();
+		if(nowScroll < lastScroll){
+			$("#gnb .snb_wrap").css({
+				"transform": "translateY(0)",
+				"transition": "transform 0.2s ease-out",
+				"z-index":"10"
+			})
+		}else{
+			$("#gnb .snb_wrap").css({
+				"transform": "translateY(-52px)",
+				"transition": "transform 0.2s ease-out",
+				"z-index":"10"
+			})
+		}
+		lastScroll = $(window).scrollTop();
+	}
+
+	$(window).on("scroll",function(){
+		prdDetailHeader();
+	});
 });
 </script>
 </body>
