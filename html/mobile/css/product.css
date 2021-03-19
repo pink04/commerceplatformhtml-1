@@ -24,7 +24,7 @@
 .prd_detail .fix_bottom_wrap .btn_wrap .util_btn a {display:block;width:70px; height:70px;font-size: 0; text-indent: -9999px; }
 .prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.wish { background: url(../image/ico_wish_w.png )no-repeat center center; background-size: auto 21px; border-right:1px solid #5d5d5d }
 .prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.wish.active { background: url(../image/ico_wish_w_active.png) no-repeat center center; background-size: auto 21px;} 
-.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.share{ background: url(../image/ico_share_w.png) no-repeat left 25px center; background-size: auto 21px;} 
+.prd_detail .fix_bottom_wrap .btn_wrap .util_btn a.share{ background: url(../image/ico_share_w.png) no-repeat left 25px center; background-size: auto 21px; border-right:1px solid #5d5d5d } 
 
 .prd_detail .fix_bottom_wrap.fixed{transform:translateY(0);-webkit-transform:translateY(0);}
 .prd_detail .reviews{}

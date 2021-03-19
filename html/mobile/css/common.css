@@ -1553,8 +1553,8 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_info02 dl dd{display:table-cell;position:relative;vertical-align:top;color:#8c8c8c}
 .mod_prd_info02 dl dd .btn_view_detail{display:inline-table; margin-left:10px;border-bottom:1px solid #338be6;font-size:13px;color:#338be6;}
 .mod_prd_info02 dl dd .btn_tip{margin-top:1px;margin-left:1px;vertical-align:text-top;}
-.mod_prd_info02 dl dd .label_coin {display:inline-block;border: 1px solid #DBDBDB; color:#000; padding: 2px 3px;border-radius: 11px;font-size:11px; }
-.mod_prd_info02 dl dd .label_coin::before{content:''; display:inline-block; width:15px; height:15px; background:url(../image/ico_wonder_coin02.png) no-repeat center center;border-radius: 50%;  background-size: 15px 15px;  vertical-align: middle; margin-right: 2px; }
+.mod_prd_info02 dl dd .label_coin {display:inline-block;border: 1px solid #DBDBDB; color:#000; padding: 2px 4px;border-radius: 11px;font-size:11px; margin-top:5px  }
+.mod_prd_info02 dl dd .label_coin::before{content:''; display:inline-block; width:15px; height:17px; background:url(../image/ico_wonder_coin02.png) no-repeat top center;border-radius: 50%;  background-size: 15px 15px;  vertical-align: middle; margin-right: 2px;}
 
 .mod_benefit_list{}
 .mod_benefit_list > li{overflow:hidden;padding:20px 15px;margin-top:5px;background:#f5f5f5;}
