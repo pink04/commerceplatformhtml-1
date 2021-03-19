@@ -1506,11 +1506,10 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_info .inner{position:relative;}
 .mod_prd_info .info_txt01{font-size:11px;font-weight:500;line-height:17px;color:#555;}
 .mod_prd_info .info_txt01 span{display:inline-block;padding-right:5px;vertical-align:top;}
-.mod_prd_info .info_box{overflow:hidden;}
-.mod_prd_info .info_box > p{float:left;}
+.mod_prd_info .info_box{display:flex; justify-content:space-between; align-items: center; height:34px;}
 .mod_prd_info .info_box > p strong{display:block;line-height:20px; font-size:14px; font-weight:600}
 .mod_prd_info .info_box > p span{display:block;line-height:14px; font-size:11px;}
-.mod_prd_info .info_box .btn_brand_logo{display:block;float:right;height:34px;padding:5px 0 4px;text-align:right;}
+.mod_prd_info .info_box .btn_brand_logo{display:block;;}
 .mod_prd_info .info_box .btn_brand_logo img{width:auto;height:25px;}
 
 .mod_prd_info .info_txt02{display:-webkit-box;overflow:hidden;max-height:56px;margin-top:15px;font-size:20px;font-weight:500;line-height:28px;word-break:break-all;color:#1f1f1f;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
