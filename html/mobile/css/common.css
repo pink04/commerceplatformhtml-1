@@ -1069,11 +1069,11 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_list03 li .prd_img{position:absolute;top:0;left:0;z-index:1;width:70px;height:70px;}
 .mod_prd_list03 li .prd_img > img{width:70px;height:70px;object-fit:cover;-webkit-object-fit:cover;}
 .mod_prd_list03 li .prd_info_box{overflow:hidden;}
-.mod_prd_list03 li .prd_info_box .info_txt01{font-size:13px;font-weight:500;line-height:19px;color:#1ea23c;}
+.mod_prd_list03 li .bottom_box .info_txt01{font-size:13px;font-weight:500;line-height:19px;color:#1ea23c;}
 .mod_prd_list03 li .prd_info_wrap .price_box{position:relative; float:right;text-align:right; margin-top:0;}
-.mod_prd_list03 li .prd_info_wrap .price_box > p{font-size:0;}
+.mod_prd_list03 li .prd_info_wrap .price_box > p{font-size:0; margin-top:12px;}
 .mod_prd_list03 li.soldeout .prd_info_wrap .price_box > p{font-size:0;}
-.mod_prd_list03 li .prd_info_wrap .price_box .price_org{position: absolute;top: -12px; right: 0;display:inline-block;vertical-align:top;font-size:12px;font-weight:500;line-height:15px;text-decoration:line-through;color:#8c8c8c;}
+.mod_prd_list03 li .prd_info_wrap .price_box .price_org{position: absolute; top:0; right: 0;display:inline-block;vertical-align:top;font-size:12px;font-weight:500;line-height:15px;text-decoration:line-through;color:#8c8c8c;}
 .mod_prd_list03 li .prd_info_wrap .price_box .price_org em{font-size:10px;}
 .mod_prd_list03 li .prd_info_wrap .price_box .price_current{display:inline-block;font-size:20px;font-weight:600;line-height:20px;color:#1f1f1f;}
 .mod_prd_list03 li .prd_info_wrap .price_box .price_current em{font-size:12px;font-weight:500;}
@@ -1097,7 +1097,12 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .wish_list .mod_prd_list03 li .prd_info_wrap .price_box .price_org{left:0; right:auto}
 .wish_list .mod_prd_list03 li .prd_info_wrap .price_box span {vertical-align:middle}
 .wish_list .mod_prd_list03 li .prd_info_wrap .price_box .deal_tag {vertical-align:middle}
-.wish_list .mod_prd_list03 li .prd_info_box {padding-top:16px;}
+.wish_list .mod_prd_list03 li .bottom_box {margin-bottom:0}
+.history_list .mod_prd_list03 li .prd_info_wrap .price_box{float:left}
+.history_list .mod_prd_list03 li .prd_info_wrap .price_box .price_org{left:0; right:auto}
+.history_list .mod_prd_list03 li .prd_info_wrap .price_box span {vertical-align:middle}
+.history_list .mod_prd_list03 li .prd_info_wrap .price_box .deal_tag {vertical-align:middle}
+.history_list .mod_prd_list03 li .bottom_box {margin-bottom:0}
 /* 상품리스트04 */
 .mod_prd_list04{overflow:hidden;padding:0 15px;background:#fff;}
 .mod_prd_list04.no_pad{padding:0;}
