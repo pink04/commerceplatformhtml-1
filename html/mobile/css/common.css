@@ -1081,7 +1081,7 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .mod_prd_list03 li .prd_info_wrap .price_box .dis_rate em{font-size:11px;font-weight:600;}
 .mod_prd_list03 li .prd_info_wrap .price_box .deal_tag{display:inline-block;width:70px;margin-left:10px;}
 .mod_prd_list03 li .bottom_box{ padding-top: 20px;overflow:hidden;clear:both; margin-bottom:20px;}
-.mod_prd_list03 li .bottom_box .ea_box{float:left;}
+.mod_prd_list03 li .bottom_box .ea_box{float:left;}  
 .mod_prd_list03 li .bottom_box .btn_wrap{float:right;}
 .mod_prd_list03 li.soldout .prd_info_box{min-height:38px;}
 .mod_prd_list03 li.soldout .prd_info_wrap .price_box > p{padding-left:14px;margin-top:10px;font-size:12px;font-weight:500;text-align:left; background:url(../image/ico_soldout.png) no-repeat left center;background-size:11px;}
@@ -1103,7 +1103,7 @@ h4{margin-top:30px;font-size:14px;font-weight:500;line-height:20px;color:#1f1f1f
 .history_list .mod_prd_list03 li .prd_info_wrap .price_box span {vertical-align:middle}
 .history_list .mod_prd_list03 li .prd_info_wrap .price_box .deal_tag {vertical-align:middle}
 .history_list .mod_prd_list03 li .bottom_box {margin-bottom:0}
-/* 상품리스트04 */
+/* 상품리스트04 */  
 .mod_prd_list04{overflow:hidden;padding:0 15px;background:#fff;}
 .mod_prd_list04.no_pad{padding:0;}
 .mod_prd_list04 > li{overflow:hidden;position:relative;padding-bottom:10px;margin-top:10px;border-bottom:1px solid #ebebeb;}
